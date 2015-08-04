@@ -1,0 +1,61 @@
+img{vertical-align: bottom;}
+.leftNav{width: 188px;position: absolute;left: 0;margin-top: 10px;color: #666666;z-index: 90;}
+.leftNav .t{height: 30px;line-height: 30px;border: solid 1px #dbdada;font-size: 16px;text-indent: 40px;background: #dbdada;position: relative;}
+.leftNav span.icon{width: 21px;height: 24px;background-image: url(../img/productlist/leftIcon.png);position: absolute;left: 10px;top: 10px;}
+
+.leftNav span.icon1{background-position: -0px -0px;}
+.leftNav span.icon2{background-position: -0px -24px;top: 6px;}
+.leftNav span.icon3{background-position: -0px -54px;top: 6px;}
+.leftNav span.icon4{background-position: -0px -84px;top: 2px;}
+.leftNav span.icon5{background-position: -0px -122px;top: 6px;}
+.leftNav span.icon6{background-position: -0px -148px;top: 2px;}
+.leftNav span.icon7{background-position: -0px -180px;top: 2px;}
+.leftNav ul{border: solid 1px #dbdada;padding-bottom: 5px;}
+.leftNav li{text-indent: 40px;position: relative;}
+.leftNav li a{display: block;background: #ebebeb;font-size: 14px;height: 30px;line-height: 30px;color: #666;position: relative;}
+.leftNav ol {display: none;}
+.leftNav ol li a{background: #fff;font-size: 12px;text-align: center;text-indent: 0px;}
+.leftNav ol li a:hover,.leftNav ol li.active a{color: #2b77e5;}
+
+.leftNav span.plus,.leftNav span.add{width: 8px;height: 10px;background-image:url(../img/productlist/plusadd.png); position: absolute;top: 50%;margin-top: -5px;right: 10px;}
+.leftNav span.plus{background-position: 0 0px;}
+.leftNav span.add{background-position: 0 -9px;}
+
+.leftNav .hot{margin-top: 20px;border-bottom: solid 1px #dbdada;margin-bottom: 20px;}
+.leftNav .proHot{padding: 14px;text-align: center;border-left: solid 1px #dbdada;border-right:solid 1px #dbdada;}
+.leftNav .proHot p{color: #666;font-size: 14px;}
+.leftNav .proHot h2{color: #b12704;font-size: 16px;padding-top: 2px;}
+
+
+.sectionList{width: 790px;padding-left: 200px;padding-top: 10px;position: relative;padding-bottom: 60px;}
+
+.sectionList .breadTop{padding-bottom: 10px;}
+.sectionList .breadTop a{color: #666;padding: 0 10px;}
+.sectionList .breadTop a:hover{text-decoration: underline;}
+
+.sectionList .listSlt{border: solid 1px #e1e1e1; border-bottom: 0; margin-bottom: 10px;background: #ebebeb;}
+.sectionList .listSlt .listSltCon{border-bottom: solid 1px #e1e1e1;}
+.sectionList .listSlt .leftSlt{width: 60px;padding: 5px 10px; font-size: 14px;text-align: right; float: left;color: #333333;}
+.sectionList .listSlt .rightSlt{width: 688px;float: left;background: #fff;padding: 0 10px;}
+.sectionList .listSlt .rightSlt a{margin: 5px 20px 5px 0px; line-height: 32px; font-size: 12px;color: #666;}
+.sectionList .listSlt .rightSlt a.active,.sectionList .listSlt .rightSlt a:hover{color: #2b77e5;}
+.sectionList .listSlt .rightSlt span{color: #a4a4a4;position: relative;}
+.sectionList .listSlt .rightSlt span em{position: absolute;font-style: normal;font-size: 12px;color: #a4a4a4;}
+.sectionList .listSlt .rightSlt span em.first{left:2px;top: 4px;}
+.sectionList .listSlt .rightSlt span em.last{left:79px;top: 4px;}
+.sectionList .listSlt .rightSlt input[type="text"]{width: 60px; text-indent: 12px; font-size: 12px; height: 18px;padding: 0;border: solid 1px #e1e1e1;margin-right: 4px;color: #666;}
+
+.sectionList .listSlt .rightSlt.rightSort{background: #ebebeb;}
+.sectionList .listSlt .rightSlt.rightSort a{margin-right: 36px;}
+
+.sectionList ul{width: 810px;overflow: hidden;padding-bottom:60px;padding-top: 10px;}
+.sectionList li{width: 250px;margin-right: 20px;float: left;margin-bottom: 30px;position: relative;}
+.sectionList li a{display: block;position: relative;font-size: 14px;color: #666;overflow: hidden;padding-bottom: 4px;}
+.sectionList li a:hover{text-decoration: underline;}
+.sectionList li img{width: 250px;height: 250px;box-shadow: 5px 2px 5px #b1b1b1;}
+.sectionList li h2{color: #b12704;font-size: 16px;padding-top: 2px;}
+.sectionList li del{font-size: 12px;color: #666;}
+.sectionList li span.addCar{width: 29px;height: 29px;background: url(../img/productlist/addcar.jpg);position: absolute;right: 0px;bottom: 0px;cursor: pointer;}
+
+
+

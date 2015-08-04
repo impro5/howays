@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+<meta content="1157650062665164176375" property="qc:admins">
+ <meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>支付</title>
+<link rel="stylesheet" href="css/bootstrap.css">
+<!--上面的是去除响应式css-->
+<link rel="stylesheet" href="css/public.css">
+<link rel="stylesheet" href="css/publicM.css">
+<link rel="stylesheet" href="css/indexmall.css">
+<link rel="stylesheet" href="css/car.css">
+<script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.js"></script>
+</head>
+<body >
+	<div>
+		<div class="contanter-son bgColorfff borderB">
+			<div class="reloTop container">
+					<div class="pull-left reloTopL">
+						<a href="javascript:;" class="reloLogo">
+						</a>
+						<div  class="clearfix"></div>
+					</div>
+					<div class="pull-right reloTopR">
+						<a class="help hongse" href="javascript:;">
+							订单中心
+						</a>
+						<a class="help hongse" href="javascript:;">
+							帮助中心
+						</a>
+						<span class="tel">
+						</span>
+					</div>
+					<div class="pull-right yongH">
+						hi!&nbsp;&nbsp;<a href="javascript:;" class="hongse">用户名</a><a href="javascript:;" class="hongse">【退出】</a>
+					</div>
+			</div>
+		</div>
+           	<!--购物车-->
+           	<div class="contanter-son">
+           		<div class="container carshop">
+           			<div class="carTop car2">
+           				<h3>填写订单信息</h3>
+           				<p>FILL IN THE ORDER FORM</p>
+           			</div>
+           			<div class="littleT">
+           				<div class="littleTs clearfix">
+           					<span>请填写并核对以下的信息</span>
+           					<a href="shoppingCart.html">&nbsp;&nbsp;返回购物车</a>
+           				</div>
+           			</div>
+           			<div class="getinfoB">
+           				<div class="getInfo">
+           					<div class="baseInfo infoBox">
+           						<div class="infoTittle clearfix">
+           							<h4>收货人信息</h4>
+           							<a href="javascript:;" class="infoEdit">【编辑】</a>
+           						</div>
+           						<div class="infoDetail">
+           							<ul class="infoMoren list-unstyled">
+           								<li>
+           									<span>收货人：</span>
+           									<span>王小明</span>
+           								</li>
+           								<li>
+           									<span>收货地址：</span>
+           									<span>上海  上海市  徐汇区 蒙门路587号</span>
+           								</li>
+           								<li>
+           									<span>手机号码：</span>
+           									<span>1569217462</span>
+           								</li>
+           							</ul>
+           							<div class="editBox">
+           								<ul class="list-unstyled addressList">
+           									<li class="clearfix">
+           										<div class="checkradio">
+           											<label>
+           												<input type="radio" checked="checked" name="选择地址"/>
+           											</label>
+           											<span class="radioIon"></span>
+           										</div>
+           										<div class="haveAddress clearfix">
+           											<span class="nameS">王小明</span>
+           											<p>
+           												上海市徐汇区桂平路410号
+	           										</p>
+	           										<span class="nameN">15676543728</span>
+           										</div>
+           										<div class="handle clearfix">
+           											<a href="javascript:;" class="morenA pull-left">默认地址</a>
+           											<a href="javascript:;" class="hongse handleA pull-right">【删除】</a>
+           											<a href="#newAddressB"  class="hongse handleA pull-right edit">【修改】</a>
+           										</div>
+           									</li>
+           									<li class="clearfix">
+           										<div class="checkradio">
+           											<label>
+           												<input type="radio" name="选择地址"/>
+           											</label>
+           											<span class="radioIon"></span>
+           										</div>
+           										<div class="haveAddress clearfix">
+           											<span class="nameS">王小明</span>
+           											<p>
+           												上海市徐汇区桂平路410号
+	           										</p>
+	           										<span class="nameN">15676543728</span>
+           										</div>
+           										<div class="handle clearfix">
+           											<a href="javascript:;" class="smorenA pull-left">设为默认地址</a>
+           											<a href="javascript:;" class="hongse handleA pull-right">【删除】</a>
+           											<a href="#newAddressB"  class="hongse handleA pull-right edit">【修改】</a>
+           										</div>
+           									</li>
+           									<li class="clearfix">
+           										<div class="checkradio">
+           											<label>
+           												<input type="radio"  name="选择地址"/>
+           											</label>
+           											<span class="radioIon"></span>
+           										</div>
+           										<div class="haveAddress clearfix">
+           											<span class="nameS">王小明</span>
+           											<p>
+           												上海市徐汇区桂平路410号
+	           										</p>
+	           										<span class="nameN">15676543728</span>
+           										</div>
+           										<div class="handle clearfix">
+           											<a href="javascript:;" class="smorenA pull-left">设为默认地址</a>
+           											<a href="javascript:;" class="hongse handleA pull-right">【删除】</a>
+           											<a href="#newAddressB"  class="hongse handleA pull-right edit">【修改】</a>
+           										</div>
+           									</li>
+           								</ul>
+           								<a href="javascript:;" class="addAddress hongse edit">新增地址</a>
+           								<div class="btnBox clearfix">
+           									<a href="javascript:;" class="bgColorred2 save2 saveAddr">保存</a>
+           								</div>
+           								<div class="newAddressB" id="newAddressB">
+           									<ul class="list-unstyled newAddress">
+           										<li class="clearfix">
+           											<span class="hidden-xs"><b>*</b>收货人</span>
+           											<input type="text" placeholder="请填写收货人姓名" />
+           										</li>
+           										<li class="clearfix">
+           											<span class="hidden-xs"><b>*</b>省市区</span>
+           											<div>
+           												<select>
+           													<option>请选择省份</option>
+           													<option>你猜</option>
+           												</select>
+           												<select>
+           													<option>请选择市</option>
+           													<option>你再猜</option>
+           												</select>
+           												<select>
+           													<option>请选择区</option>
+           													<option>你在猜猜</option>
+           												</select>
+           											</div>
+           										</li>
+           										<li class="clearfix">
+           											<span class="hidden-xs"><b>*</b>详细地址</span>
+           											<input type="text" placeholder="请填写收货人详细地址"/>
+           										</li>
+           										<li class="clearfix">
+           											<span class="hidden-xs"><b>*</b>手机号码</span>
+           											<input type="text" placeholder="请 手机号码" />
+           										</li>
+           										<li class="clearfix creatA">
+           											<a href="javascript:;" class="bgColorred2 save">保存新地址</a>
+           											<label class="szmoren">
+           												<input type="checkbox" />
+           												设置为默认地址
+           											</label>
+           											<div class="mustT hidden-xs">*为必填</div>
+           										</li>
+           									</ul>
+           								</div>
+           							</div>
+           						</div>
+           					</div>
+           					<div class="baseInfo infoBox">
+           						<div class="infoTittle clearfix">
+           							<h4>支付方式</h4>
+           							<a href="javascript:;" class="infoEdit">【选择其他支付方式】</a>
+           						</div>
+           						<div class="infoDetail">
+           							<ul class="infoMoren list-unstyled">
+           								<li>
+           									<span>支付方式： </span>
+           									<span>支付宝</span>
+           								</li>
+           							</ul>
+           							<div class="editBox">
+           								<div class="pay">
+           									<div class="payB">
+           										<h4>使用支付平台支付</h4>
+           										<ul class="list-unstyled payF clearfix">
+           											<li>
+           												<label class="clearfix">
+           													<div class="checkradio pull-left">
+			           											<input type="radio" checked="checked" class="carradio" name="选择银行"/>
+			           											<span class="radioIon carradioChecked"></span>
+			           										</div>
+		           											<div  class="payIcon">
+		           												<img src="images/payIcon_07.jpg" />
+		           											</div>
+           												</label>
+           											</li>
+           										</ul>
+           									</div>
+           									<div class="payB">
+           										<h4>使用网上银行支付</h4>
+           										<ul class="list-unstyled payF clearfix">
+           											<li>
+           												<label class="clearfix">
+           													<div class="checkradio pull-left" >
+			           											<input type="radio"  class="carradio" name="选择银行"/>
+			           											<span class="radioIon"></span>
+			           										</div>
+		           											<div  class="payIcon">
+		           												<img src="images/payIcon_03.jpg" />
+		           											</div>
+           												</label>
+           											</li>
+           											<li>
+           												<label class="clearfix">
+           													<div class="checkradio pull-left">
+			           											<input type="radio" class="carradio" name="选择银行"/>
+			           											<span class="radioIon"></span>
+			           										</div>
+		           											<div  class="payIcon">
+		           												<img src="images/payIcon_06.jpg"  />
+		           											</div>
+           												</label>
+           											</li>
+           											<li>
+           												<label class="clearfix">
+           													<div class="checkradio pull-left">
+			           											<input type="radio" class="carradio" name="选择银行"/>
+			           											<span class="radioIon"></span>
+			           										</div>
+		           											<div  class="payIcon">
+		           												<img src="images/payIcon_08.jpg"  />
+		           											</div>
+           												</label>
+           											</li>
+           											<li>
+           												<label class="clearfix">
+           													<div class="checkradio pull-left">
+			           											<input type="radio" class="carradio" name="选择银行"/>
+			           											<span class="radioIon"></span>
+			           										</div>
+		           											<div class="payIcon">
+		           												<img src="images/payIcon_20.jpg"  />
+		           											</div>
+           												</label>
+           											</li>
+           										</ul>
+           									</div>
+           								</div>
+           								<div class="btnBox clearfix">
+           									<a href="javascript:;" class="bgColorred2 save2">保存支付方式</a>
+           								</div>
+           							</div>
+           						</div>
+           					</div>
+           					<div class="baseInfo infoBox">
+           						<div class="infoTittle clearfix">
+           							<h4>发票信息</h4>
+           							<a href="javascript:;" class="infoEdit">【编辑】</a>
+           						</div>
+           						<div class="infoDetail">
+           							<ul class="infoMoren list-unstyled">
+           								<li>
+           									<span>发票抬头：</span>
+           									<span>上海市So品传媒公司</span>
+           								</li>
+           								<li>
+           									<span>发票类型：</span>
+           									<span>公司</span>
+           								</li>
+           							</ul>
+           							<div class="editBox">
+           								<div class="fapiaoB">
+           									<ul class="list-unstyled fapiao">
+           										<li>
+           											<label>
+           												<div class="checkradio pull-left">
+		           											<input type="radio" checked="checked" class="carradio" name="发票类型"/>
+		           											<span class="radioIon"></span>
+		           										</div>
+	           											<div class="fapiaoC pull-left">
+	           												<span>
+	           													不开发票
+	           												</span>
+	           											</div>
+           											</label>
+           										</li>
+           										<li>
+           											<label>
+           												<div class="checkradio pull-left">
+		           											<input type="radio" class="carradio" name="发票类型"/>
+		           											<span class="radioIon"></span>
+		           										</div>
+	           											<div class="fapiaoC  pull-left">
+	           												<span>
+	           													个人
+	           												</span>
+	           											</div>
+           											</label>
+           										</li>
+           										<li>
+           											<label>
+           												<div class="checkradio pull-left">
+		           											<input type="radio" class="carradio" name="发票类型"/>
+		           											<span class="radioIon"></span>
+		           										</div>
+	           											<div class="fapiaoC pull-left">
+	           												<span>
+	           													公司
+	           												</span>
+	           												<input type="text"  value='请填写抬头' onfocus="if (value =='请填写抬头'){value =''}" onblur="if (value ==''){value='请填写抬头'}"/>
+	           											</div>
+           											</label>
+           										</li>
+           									</ul>
+           									<div class="btnBox clearfix">
+			   									<a href="javascript:;" class="bgColorred2 save2">保存支付方式</a>
+			   								</div>
+           								</div>
+           								
+           							</div>
+           							
+           						</div>
+           					</div>
+           				</div>
+           			</div>
+           			<div class="carList">
+           				<table>
+           					<thead>
+           						<tr>
+           							<td class="carN1">
+           								商品信息
+           							</td>
+           							<td class="carN2">
+           								单价（元）
+           							</td>
+           							<td class="carN3">
+           								数量
+           							</td>
+           							<td class="carN4">
+           								小记
+           							</td>
+           							<td class="carN5">
+           								总价
+           							</td>
+           						</tr>
+           					</thead>
+           					<tbody>
+           						<tr>
+           							<td colspan="5" class="spPinpai">
+           								品牌：TAPIC
+           							</td>
+           						</tr>
+           						<tr class="TRdetail">
+           							<td  class="clearfix">
+           								<a href="javascript:;" class="carImg">
+           									<img src="images/psmalI_07.jpg" />
+           								</a>
+           								<div class="carDetail">
+           									<a href="javascript:;" class="hongse">加湿器</a>
+           									<div class="shuxin">
+           										<span>颜色：&nbsp;黑色</span>
+           										<span>尺寸：&nbsp;250*150</span>
+           									</div>
+           								</div>
+           							</td>
+           							<td class="text-center danjia">
+           								￥190000
+           							</td>
+           							<td class="text-center">
+           								<div class="">
+           									<span>3</span>
+										</div>
+           							</td>
+           							<td class="text-center xiaoji">
+           								￥190000
+           							</td>
+           							<td  class="text-center">
+           								￥190000
+           							</td>
+           						</tr>
+           						<tr class="textbox">
+       								<td colspan="5">
+       									<div class="message clearfix">
+       										<span>留言备注</span>
+       										<textarea></textarea>
+       									</div>
+       								</td>
+           						</tr>
+           					</tbody>
+           					<tfoot>
+           						<tr class="kongge" >
+           							<td colspan="5"></td>
+           						</tr>
+           						<tr class="TRdetailF">
+           							<td colspan="5">
+	           							<ul class="list-unstyled">
+	           								<li class="clearfix">
+	           									<span>请选择优惠券</span>
+	           									<select>
+	           										<option>
+	           											优惠券一
+	           										</option>
+	           										<option>
+	           											优惠券二
+	           										</option>
+	           										<option>
+	           											优惠券三
+	           										</option>
+	           										<option>
+	           											优惠券四
+	           										</option>
+	           									</select>
+	           									<a href="javascript:;" class="bgColorred2">确定</a>
+	           								</li>
+	           								<li class="clearfix">
+	           									<span>或激活优惠券</span>
+	           									<input type="text" value="请输入激活码" />
+	           									<a href="javascript:;" class="bgColorred2">激活</a>
+	           								</li>
+	           							</ul>
+	           						</td>
+           						</tr>
+           					</tfoot>
+           				</table>
+           			</div>
+           			<div class="huizong">
+           				<ul class="moneyzong list-unstyled">
+           					<li class="clearfix">
+           						<span class="moneyS">0元</span>
+           						<span class="nameD">代金券</span>
+           					</li>
+           					<li class="clearfix">
+           						<span>10元</span>
+           						<span>运费</span>
+           					</li>
+           				</ul>
+           				<ul class="allInfo list-unstyled">
+           					<li class="clearfix">
+           						<span>2572542元</span>
+           						<span>付款金额</span>
+           					</li>
+           					<li class="sjrInfo">
+           						<p>收货人：王小明</p>
+           						<p>收货地址：上海  上海市  徐汇区 蒙门路587号</p>
+           						<p>手机号码：  1569217462</p>
+           					</li>
+           				</ul>
+           			</div>
+
+           			<div class="gogo clearfix paddingB60 paddingTop20">
+           				<a href="javascript:;" class="bgColorred2 btng pull-right">
+           					去结算
+           				</a>
+           				<div class="gobackB pull-right">
+           					<a href="shoppingCart.html" class=" goback  pull-right">
+           						返回购物车
+           					</a>	
+           				</div>
+           			</div>
+           		</div>
+           	</div>
+           	
+           	<!--底部-->
+           	<div class="contanter-son ">
+           		<div class="container footer clearfix">
+       				<ul class="list-unstyled  clearfix pull-left">
+                    	<li>
+                    		<a href="javascript:;">我的账户</a>
+                         </li>
+                         <li>
+                    		<a href="javascript:;">我的订单</a>
+                         </li>
+                         <li>
+                    		<a href="javascript:;">配送信息</a>
+                         </li>
+                         <li>
+                    		<a href="javascript:;">退换货信息</a>
+                         </li>
+                         <li>
+                    		<a href="javascript:;">退款信息</a>
+                         </li>
+                         <li>
+                    		<a href="javascript:;">支付信息</a>
+                         </li>
+                         <li>
+                    		<a href="javascript:;">关于发票</a>
+                         </li>
+                         <li>
+                    		<a href="javascript:;">关于我们</a>
+                         </li>
+                    </ul>
+                    <div class="weixinErwei pull-left clearfix">
+						<span>致电我们：021-7654765</span>
+						<a href="javascript:;">
+						</a>
+						<div class="erweima">
+								<img src="images/erweima.png" />
+							</div>
+					</div>
+           		</div>
+           	</div>
+            <div class="contanter-son bgColorred text-center colorfff" >
+            	<div class="container footer-record">
+               	 	<p>Copyright 2008-2014 HAOWEISI all right reserved.沪ICP备05039311号-1&nbsp; <span>好威思版权所有</span></p>                
+                </div>
+                
+            </div>
+    </div><!-- 大盒子 -->
+<script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
+<script src="js/ie-emulation-modes-warning.js"></script>
+<script src="js/ie10-viewport-bug-workaround.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/public.js"></script>
+<script>
+$(document).ready(function(){
+	var a = window.navigator.userAgent; 
+	 if(a.indexOf("Windows NT")>-1 || a.indexOf("Macintosh")>-1){
+		 $(".dropdown").mouseover(function(){
+			$(".dropdown").removeClass("open").attr('aria-expanded', 'false');
+			$(this).addClass("open").attr('aria-expanded', 'true');
+		});	
+		 }
+	 $(".sousuoma").click(function(){
+	 	$(".sousuoM").toggle();
+	 });
+	 $("#add").click(function(){
+		var n = $("#num").val();
+		var num = parseInt(n)+1;
+		if (num == 0){
+			alert("cc");
+		}
+		$("#num").val(num);
+	});
+	$("#jian").click(function() {
+		var n = $("#num").val();
+		var num = parseInt(n)-1;
+		if (num == 0) {
+			alert("不能为0!");
+			return
+		}
+		$("#num").val(num);
+	});
+	$('.infoEdit').click(function(){
+		$(this).hide().parent().parent().find(".infoMoren").hide();
+		$(this).parent().parent().find(".editBox").fadeIn();
+	});
+	$('.save2').click(function(){
+		$(this).parents(".editBox").hide();
+		$(this).parents(".baseInfo").find(".infoMoren").fadeIn();
+		$(this).parents(".baseInfo").find(".infoEdit").fadeIn();
+	});
+	$('.edit').click(function(){
+		$(this).parents(".editBox").find(".saveAddr").hide();
+		$(this).parents(".editBox").find(".newAddressB").fadeIn();
+	});
+	$('.save').click(function(){
+		$(this).parents(".editBox").find(".newAddressB").hide();
+		$(this).parents(".editBox").find(".saveAddr").fadeIn();
+	});
+	//单选银行初始状态
+	$(".payB input[type=radio]").each(function(){
+		if(this.checked){
+			$(this).parent().find(".radioIon").addClass("carradioChecked");
+		}
+	});
+	$(".payB input[type=radio]").click(function(){
+		if(this.checked){
+			$(this).parents(".editBox").find(".radioIon").removeClass("carradioChecked");
+			$(this).parent().find(".radioIon").addClass("carradioChecked");
+		}
+	});
+	$(".addressList input[type=radio]").each(function(){
+		if(this.checked){
+			$(this).parent().parent().find(".radioIon").addClass("carradioChecked");
+		}
+	});
+	$(".addressList input[type=radio]").click(function(){
+		if(this.checked){
+			$(this).parents(".editBox").find(".radioIon").removeClass("carradioChecked");
+			$(this).parent().parent().find(".radioIon").addClass("carradioChecked");
+		}
+	});
+	$(".fapiaoB input[type=radio]").each(function(){
+		if(this.checked){
+			$(this).parent().parent().find(".radioIon").addClass("carradioChecked");
+		}
+	});
+	$(".fapiaoB input[type=radio]").click(function(){
+		if(this.checked){
+			$(this).parents(".editBox").find(".radioIon").removeClass("carradioChecked");
+			$(this).parent().find(".radioIon").addClass("carradioChecked");
+		}
+	});
+});
+</script>
+</body>
+</html>

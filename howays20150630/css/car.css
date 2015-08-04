@@ -1,0 +1,767 @@
+@charset "utf-8";
+/* CSS Document */
+
+.delete,.carTop h3,.checkboxIcon,.radioIon{
+	background-image: url(../images/carshop2_06.png);
+	background-repeat: no-repeat;
+}
+.carList{
+	margin-bottom:30px;
+}
+.carTop,.carList{
+	padding: 0 5px;
+}
+.carTop h3{
+	line-height: 24px;
+	line-height: 24px;
+	color: #000;
+	font-size:18px;
+	padding-left:34px !important;
+}
+.carTop P{
+	color: #979797;
+}
+.car1 h3{
+	background-position: -4px -3px;
+}
+.car2 h3{
+	background-position: -4px -35px;
+}
+.car3 h3{
+	background-position: -4px -68px;
+}
+.carList table{
+	width: 100%;
+}
+.carList thead,.carList .TRdetail,.carList .TRdetailF,.textbox{
+	border: 1px solid #ddd;
+}
+.carList td{
+	padding: 10px;
+}
+.carList thead td{
+	padding:5px 10px;
+	color: #333333;
+	text-align: center;
+}
+.choice{
+	position: relative;
+	float: left;
+	vertical-align: middle;
+}
+.choice input{
+	margin-top: 0 !important;
+}
+.checkLabel,.checkbox1{
+	display: block;
+	line-height: 52px;
+	height:52px;
+	position: absolute;
+	top:0;
+	left: 0;
+}
+.checkLabel{
+	z-index: 2;	
+	text-indent:34px;
+}
+.deleteAll{
+	line-height: 52px;
+	margin-left:40px;
+	float: left;
+}
+.checkbox1{
+	z-index:3;	
+}
+.checkboxIcon{
+	z-index: 1;
+	background-position:-5px -160px ;
+	width:40px;
+	height:30px;
+	position: absolute;
+	top:16px;
+	left:11px;
+}
+.checkboxIconHover{
+	background-position:-5px -190px !important;
+}
+.carImg{
+	float: left;
+	display: block;
+	width: 60px;
+	height: 60px;
+	overflow: hidden;
+}
+.carImg img{
+	width: 100%;
+}
+.carDetail a{
+	display: block;
+	font-size: 14px;
+	color: #666666;
+}
+.checkbox1{
+	opacity:0; 
+	filter:alpha(opacity=0);
+	cursor: pointer;
+}
+.TRdetail{
+	background-color: #F9F9F9;
+}
+.spPinpai{
+	color: #666;
+}
+.shuxin span{
+	color: #999;
+	font-size: 12px;
+	margin-right:10px;
+}
+.carN1{
+	width: 420px;
+}
+.carN2{
+	width:100px;
+	text-align: center;
+}
+.carN3{
+	width:160px;
+	text-align: center;
+}
+.carN4{
+	width: 134px;
+	text-align: center;
+}
+.carN5{
+	width:120px;
+}
+.danjia{
+	color: #666;
+}
+.xiaoji{
+	color: #333;
+}
+.caozuob{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 0;
+}
+
+.delete{
+	display: block;
+	float: left;
+	width:16px;
+	height: 16px;
+	background-position:-10px -104px ;
+}
+.delete:hover{
+	background-position:-10px -131px ;
+}
+.all1{
+	color: #000;
+	font-size: 12px;
+	line-height: 24px;
+}
+.allprice{
+	padding-top: 10px;
+	float: right;
+}
+.allprice b{
+	color: #A22622;
+}
+.all1 span,.all2 span{
+	float: right;
+}
+.all11,.all22{
+	text-align: left;
+}
+.all2{
+	font-size: 18px;
+	color: #333;
+	line-height: 30px;
+}
+.gogo a{
+	display: block;
+	line-height: 44px;
+	height: 44px;
+	text-align: center;
+}
+.gonon,.gonon:hover{
+	color: #a81f46;
+}
+.paddingB60{
+	padding-bottom:60px;
+}
+.littleT{
+	padding:0 5px;
+	
+}
+.littleTs{
+	padding: 10px 10px;
+	background-color: #000;
+	color: #fff;
+	margin-bottom:15px;
+}
+.littleTs span,.littleTs a,.littleTs a:hover{
+	color:#fff;
+}
+.littleTs span{
+	float: left;
+}
+.littleTs a{
+	float:right;
+}
+.getinfoB{
+	padding: 0 5px;
+	margin-bottom: 30px;
+}
+.getInfo{
+	border: 2px solid #ddd;
+	padding:10px 10px;
+}
+.infoTittle{
+	border-bottom: 1px solid #ddd;
+}
+.infoTittle,.infoDetail{
+	padding: 0 10px;
+}
+.infoTittle h4,.infoTittle a{
+	float: left;
+	font-weight: normal;
+}
+.infoTittle a,.infoTittle a:hover{
+	line-height: 40px;
+	padding-left: 20px;
+	color: #CC0000;
+}
+.infoMoren,.editBox{
+	padding:10px 0 20px;
+}
+.infoMoren li{
+	line-height: 30px;
+}
+.addressList li>div{
+	float:left;
+}
+.addressList li{
+	line-height: 30px;
+}
+.checkradio{
+	width: 30px;
+	height: 30px;
+	position: relative;
+}
+.checkradio label{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	z-index: 3;
+	cursor: pointer;
+}
+.radioIon{
+	position: absolute;
+	z-index: 2;
+	display: block;
+	width: 30px;
+	height: 30px;
+	background-position:0px -215px;
+}
+.checkradio input{
+	display: block;
+	width: 30px;
+	height: 30px;
+	opacity: 0;
+	filter:alpha(opacity=0);
+	cursor: pointer;
+}
+.haveAddress span,.haveAddress p{
+	color: #000;
+	margin-right:20px;
+	float: left;
+}
+.haveAddress p{
+	margin-bottom: 0;
+}
+.nameS{
+	width:85px;
+}
+
+.nameN{
+	width:120px;
+}
+.morenA{
+	color: #999;
+}
+.handleA{
+	color: #999;
+}
+.handleA:hover{
+	text-decoration: none;
+	
+}
+.morenA,.morenA:hover{
+	cursor: not-allowed;
+	color: #999;
+	text-decoration:none ;
+}
+.smorenA,.smorenA:hover{
+	color: #CC0000;
+}
+.newAddress{
+	border: 1px solid #ddd;
+	padding: 20px 20px;
+}
+.newAddress li{
+	padding: 5px;
+}
+.newAddress span{
+	float: left;
+	width: 100px;
+	line-height: 36px;
+	text-align: right;
+	margin-right: 20px;
+}
+.newAddress b{
+	color: #BD0000;
+}
+.newAddress input[type='text']{
+	float: left;
+	height: 36px;
+	padding: 8px 10px;
+	outline: none;
+	border-width: 1px;
+	border-color: #ddd;
+	border:solid 1px #ddd;
+}
+.newAddress input[type='text']{
+	width: 465px;
+}
+.newAddress input:hover,.newAddress input:focus,.newAddress select:hover,.newAddress select:focus{
+	border-color: #76DB8A;
+	border-width: 1px;
+	outline: none;
+}
+.newAddress select{
+	height: 36px;
+	padding: 8px 10px;
+	margin-right:1px;
+	border:solid 1px #ddd;
+	line-height: 16px;
+	appearance:none;
+	-webkit-appearance:none;
+	background: url(../images/xiala_03.jpg) no-repeat right center;
+}
+.newAddress select option{
+	appearance:none;
+	-webkit-appearance:none;
+	background:none;
+}
+.save,.save:hover{
+	height: 44px;
+	line-height: 44px;
+	color: #fff;
+	float: left;
+	text-align: center;
+}
+.save2,.save2:hover{
+	height: 44px;
+	line-height: 44px;
+	color: #fff;
+	float: left;
+	text-align: center;
+}
+.creatA{
+	margin: 20px 0;
+	line-height:44px;
+}
+.szmoren{	
+	margin-left: 20px;
+	float: left;
+}
+.mustT{
+	float: left;
+	color: #CC0000;
+	margin-left: 20px;
+}
+.addAddress{
+	color: #CC0000;
+	margin-left:40px;
+}
+.btnBox{
+	margin: 20px 0 20px;
+}
+.pay{
+	padding: 20px;
+	border: 1px solid #ddd;
+}
+.payB h4{
+	font-size:12px;
+}
+.payF li>label{
+	width: 100%;
+	
+}
+.payIcon{
+	display: block;
+	float: left;
+	height: 30px;
+}
+.carradio{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 3;
+}
+.payF label{
+	cursor: pointer;
+}
+.fapiao li{
+	line-height: 30px;
+}
+.fapiao li span,.fapiao li input{
+	font-weight: normal;
+}
+.fapiao li input{
+	margin-left: 20px;
+	padding:7px 10px;
+	line-height: 16px;
+	height: 30px;
+}
+.fapiaoB{
+	padding: 10px 0 20px;
+}
+.TRdetailF ul li{
+	padding: 8px 5px;
+}
+.TRdetailF ul li>span{
+	line-height:30px;
+	float: left;
+}
+.TRdetailF ul li select,.TRdetailF ul li input{
+	padding: 5px 10px;
+	height: 30px;
+	line-height: 20px;
+	border: 2px solid #eee;
+	float: left;
+}
+.TRdetailF ul li a,.TRdetailF ul li a:hover{
+	float: left;
+	height: 30px;
+	color: #fff;
+	line-height: 30px;
+	text-align: center;
+}
+.huizong{
+	background-color: #EAEAEA;
+	padding:20px;
+}
+.huizong ul li span{
+	float: RIGHT;
+	text-align: right;
+	line-height:30px;
+	color: #000;
+}
+.moneyzong{
+	padding-bottom:10px;
+	border-bottom: 1px solid #999;
+}
+.moneyzong span{
+	font-size: 14px;
+}
+.allInfo span{
+	font-size: 22px;
+}
+.sjrInfo{
+	padding-top:30px;
+	text-align: right;
+	color: #656565;
+}
+.goback,.goback:hover{
+	background-color: #979797;
+	color: #fff;
+	text-decoration: none;
+}
+.goback:hover{
+	background-color: #888;
+	text-decoration: none;
+}
+.sureBox{
+	padding:0 5px;
+}
+.sure{
+	border: 1px solid #ddd;
+	padding: 20px;
+}
+.sure p{
+	text-align: center;
+	line-height: 30px;
+}
+.orderInfo{
+	border: 3px solid #ddd;
+	font-size: 18px;
+	line-height: 30px;
+	margin: 0;
+}
+.editOrder{
+	color: #A42622;
+	font-size: 18px;
+	margin-right:60px;
+}
+.Ordertitle{
+	background-color:#EDEDED ;
+	border: 1px solid #ddd;
+}
+.messageP{
+	border: 1px solid #ddd;
+}
+.messageP p{
+	margin: 0;
+}
+.konghang{
+	height:30px;
+}
+.payOK,.shibai{
+	line-height: 44px;
+	height: 44px;
+	text-align: center;
+	display: block;
+}
+.shibai{
+	border: 1px solid #CC0000;
+	color: #CC0000;
+}
+.shibai{
+	border: 1px solid #CC0000;
+	color: #CC0000;
+}
+.shibai:hover{
+	border: 1px solid #CC0000;
+	background-color: #CC0000;
+	color: #fff;
+	text-decoration: none;
+}
+.payOK{
+	color: #fff;
+	background-color: #76DB8A;
+}
+.payOK:hover{
+	color: #fff;
+	background-color: #6CD37D;
+	text-decoration: none;
+}
+.aBox1,.aBox2{
+	padding: 10px;
+}
+.Tbody p{
+	padding: 10px 10px 0;
+}
+.editBox{
+	display: none;
+}
+.newAddressB{
+	display: none;
+}
+.carradioChecked{
+	background-position:0px -246px !important;
+}
+.successN{
+	width: 100%;
+	min-height: 276px;
+	background-color:#F9F9F9 ;
+	border: 1px solid #EEEEEE;
+	padding-top: 40px;
+}
+.Stitle h3{
+	font-size: 24px;
+	padding-left:100px;
+	height: 66px;
+	line-height:66px;
+	color: #56B265;
+	text-align: center;
+	width: 260px;
+	margin: 0 auto;
+	text-align: left;
+}
+.suIcon h3{
+	background: url(../images/recoIcon_03.jpg) no-repeat left center;
+}
+.caozuoA{
+	width: 260px;
+	margin: 0 auto;
+	padding:20px 0;
+}
+.caozuoA a{
+	color: #666666;
+}
+.caozuoA a:last-child{
+	margin-left:120px;
+}
+.message{
+	padding: 8px 5px;
+}
+
+	.newAddress input[type='text']{
+		width: 465px;
+	}
+	.save,.save:hover{
+		width: 140px;
+		margin-left: 120px;
+	}
+	.carDetail {
+		width:260px;
+		padding-left: 20px;
+		float: left;
+	}
+	.carDetail a{
+		padding:5px 0;
+	}
+	.carshop{
+	}
+	.sureOrder{
+		width: 616px;
+		margin: 0 auto;
+	}
+	.btng,.btng:hover{
+		width: 140px;
+		color: #fff;
+	}
+	.TfootB{
+		padding: 0 10px;
+		width: 356px;
+		margin: 0 auto;
+	}
+	.payOK,.shibai{
+		width: 148px;
+	}
+	.orderInfo{
+		padding: 40px;
+	}
+	.message textarea{
+		height: 72px;
+		width: 470px;
+		float: left;
+	}
+	.TRdetailF ul li>span{
+		width: 160px;
+		text-align: right;
+	}
+	.TRdetailF ul li select,.TRdetailF ul li input{
+		width: 370px;
+	}
+	.TRdetailF ul{
+		padding:10px 0px;
+	}
+	.TRdetailF ul li a,.TRdetailF ul li a:hover{
+		width: 90px;
+		margin-left: 20px;
+	}
+	.message span{
+		line-height: 72px;
+		width: 100px;
+		float: left;
+		text-indent:10px;
+	}
+	.huizong ul li span{
+		width: 184PX;
+	}
+	.goback{
+		margin-right: 20px; 
+		width: 140px;
+	}
+	.nameS{
+		margin-left: 10px;
+	}
+	.haveAddress p{
+		width:260px;
+	}
+	.handle{
+		width: 350px;
+	}
+	.handleA{
+		padding:0 10px;
+	}
+	.newAddress select{
+		width: 151px;
+	}
+	.payF li{
+		float: left;
+		width: 25%;
+	}
+	.payF{
+		padding: 10px 20px 10px;
+		margin: 0;
+	}
+	.save2{
+		width: 140px;
+		margin-left:40px;
+	}
+	.choice,.checkLabel,.checkbox1{
+		width:72px;
+		height: 52px;
+	}
+	.firstTD{
+		width: 440px;
+	}
+	.all11,.all22{
+		width: 100px !important;
+	}
+	.all11,.all22{
+		width:100px;
+		margin-left: 20px;
+	}
+
+.reloTopL span{
+		line-height: 74px;
+		font-size:2em;
+		margin-left: 15px;
+		color: #333;
+	}
+	.reloTopR a{
+		line-height: 74px;
+		font-size:14px;
+		color: #666;
+	}
+	.reloTop{
+		padding: 20px 0;
+	}
+	.reloLogo{
+		width:100px;
+		height:74px;
+		background: url(../images/reloIcon_03.jpg) no-repeat center center;
+		display: block;
+		float: left;
+		padding-right: 10px;
+		
+	}
+	.borderB{
+		border-bottom: 1px solid #dbdbdb;
+	}
+	.reloTopL span{
+		line-height: 74px;
+		font-size:2em;
+		margin-left: 15px;
+		color: #333;
+	}
+	.reloTopR a{
+		line-height: 74px;
+		font-size:14px;
+		color: #666;
+		padding: 0 20px ;
+	}
+	.reloTop{
+		padding: 20px 0;
+	}
+	.tel{
+		width:160px;
+		height: 74px;
+		float:right;
+		background: url(../images/reloIcon_06.jpg) no-repeat center center;
+	}
+	.yongH{
+		line-height: 74px;
+		padding:0 20px;
+	}
+	.yongH a:first-child{
+		text-decoration: underline;
+	}
+	.yongH a{
+		color: #666;
+	}

@@ -1,0 +1,74 @@
+/*预约服务*/
+.appointmentBg{background: #f2f0f0;}
+.appointmentBg h2{height: 100px;line-height: 100px;color: #f2f0f0;background: #7c8899; width: 100px;font-size: 36px; text-align: center;line-height: 100px;width: 100%;}
+.appointmentBg h2 img{position: relative;margin-right: 48px;top: 12px;}
+.appointmentBg h2 span{display: block;position: absolute;left: 50%;margin-left: -123px;}
+
+.appointmentBg .wrap{width: 990px;margin: 0 auto;padding-top: 20px;padding-bottom: 30px;}
+.appointmentBg .wrap .timeline{width: 723px;height: 74px;background: url(../img/appointment/timeline.png);position: relative;margin: 0 auto;}
+.appointmentBg .wrap .timeline p{font-size: 16px;color: #5c6572;position: absolute;}
+.appointmentBg .wrap .timeline p.p1{top: -6px;left: 0px;}
+.appointmentBg .wrap .timeline p.p2{top: 50px;left: 150px;}
+.appointmentBg .wrap .timeline p.p3{top: 50px;right: 120px;}
+
+.appointmentBg .wrap .appointmentCon{padding-top: 40px;}
+.appointmentBg .wrap .appointmentCon .fl{margin-left:176px;position: relative;}
+.appointmentBg .wrap .appointmentCon .fr{width: 370px;margin-right: 60px;position: relative;}
+.appointmentBg .wrap .appointmentCon a{margin: 10px 0; width: 278px;height: 50px;font-size: 16px;color: #444; display: block; border: solid 1px #c9c9c9; line-height: 50px;text-align: center;}
+
+.appointmentBg .wrap .appointmentCon a.active{border: solid 1px #41464e;color: #ffffff;background: #5c6572;text-shadow:1px 1px 2px #2e3339;}
+.appointmentBg .wrap .appointmentCon .desCon{width: 254px;margin: 10px 0;padding: 20px 12px;box-shadow: 2px 2px 3px #c0c0c0;background: #fff;color: #666666;display: none;}
+
+.appointmentBg .wrap a.appointmentBtn{width: 113px;height: 41px;line-height: 40px;background: url(../img/orangeBtn.png);margin: 0 auto;display: block;margin-top:50px;color: #fff;border: 0;box-shadow: none;}
+.appointmentBg .wrap .appointmentCon select{width: 146px;height: 34px;line-height: 34px;padding: 0; font-size: 16px;color: #666666;margin-bottom: 20px;}
+.appointmentBg .wrap .appointmentCon select.fl{margin-left: 0;}
+.appointmentBg .wrap .appointmentCon select.fr{width: 146px;}
+.appointmentBg .wrap .appointmentCon span.to{position: absolute;top: 59px;left: 152px;}
+.appointmentBg .wrap .appointmentCon .inputInfo{padding:25px 0;}
+.appointmentBg .wrap .appointmentCon .inputInfo.bdt{border-top: solid 1px #ddd;}
+.appointmentBg .wrap .appointmentCon span.t{width: 60px;float: left;color: #666;line-height: 30px;}
+.appointmentBg .wrap .appointmentCon input[type="text"]{height: 30px;padding: 0;width: 296px;}
+.appointmentBg .wrap .appointmentCon textarea{width: 296px;height: 125px;}
+
+
+/*挑选工具*/
+.chooseBg{background: #eeecec;}
+
+.chooseBg div.fl{width: 360px;border: solid 3px #535b68;}
+.chooseBg div.fl ul{font-size: 16px;}
+.chooseBg div.fl li{height: 134px;background: #fff;}
+.chooseBg div.fl li.ac{background: #efecec;}
+.chooseBg div.fl span.iconBg{width: 60px;height: 134px;background: #6c7787;position: relative;}
+.chooseBg div.fl li.ac span.iconBg{background: #5c6572;}
+.chooseBg div.fl i.icon{width: 60px;height: 120px; display: block; background: url(../img/appointment/icon.png);}
+.chooseBg div.fl i.icon1{background-position: 0 0;}
+.chooseBg div.fl i.icon2{background-position: 0 -140px;}
+.chooseBg div.fl i.icon3{background-position: 0 -275px;;}
+.chooseBg div.fl i.icon4{background-position: 0 -410px;}
+.chooseBg div.fl i.icon5{background-position: 0 -545px;}
+.chooseBg div.fl i.icon6{background-position: 0 -660px;}
+.chooseBg div.fl i.icon7{background-position: 0 -800px;}
+.chooseBg div.fl em{font-style: normal;color: #fff;position: absolute;top: 80px;left: 12px;}
+.chooseBg div.fl span.desBg{padding-top:28px;display: block;width: 300px;}
+
+.chooseBg div.fl a{width: 25%;float: left;margin-left: 4%; margin-right: 2.4%;margin-top: 5px;margin-bottom: 5px; padding: 5px 0; color: #666666; border: solid 1px #bebebe; display: block;text-align: center;}
+.chooseBg div.fl a.active{background: #5c6572;color: #fff;}
+
+.chooseBg div.fr{width: 592px;}
+
+.chooseBg div.fr ul{width: 592px;overflow: hidden;padding-bottom:60px;padding-top: 20px;}
+.chooseBg div.fr li{width: 165px;margin-right: 30px;float: left;margin-bottom: 30px;position: relative;}
+.chooseBg div.fr li a{display: block;position: relative;font-size: 14px;color: #666;overflow: hidden;padding-bottom: 4px;}
+.chooseBg div.fr li a:hover{text-decoration: underline;}
+.chooseBg div.fr li img{width: 165px;height: 165px;box-shadow: 5px 2px 5px #b1b1b1;}
+.chooseBg div.fr li h2{color: #b12704;font-size: 16px;padding-top: 2px;height: 24px;line-height: 24px;background: none;text-align: left;}
+
+
+
+
+
+
+
+
+
+

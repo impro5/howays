@@ -1,0 +1,147 @@
+.shopcar{padding-bottom: 20px;}
+.shopcar h1{position: relative;height: 86px;border-bottom: solid 2px #1a2c3c;line-height: 86px;font-size: 24px;}
+.shopcar h1 .step{position: absolute;right: 0px;top: 10px;}
+.shopcar h1 .step span{font-size: 12px;color: #999999;position: absolute;right: 20px;top: 10px;}
+.shopcar h1 .step span.w2{right: 180px;width:auto;}
+.shopcar h1 .step span.w3{right: 20px;}
+.shopcar h1 .step span.w1{right: 320px;}
+.shopcar h1 .step span.active{color: #606976;}
+.shopCarTitle{border: solid 1px #bebebe;height: 48px;line-height: 48px;font-size: 14px;color: #666;position: relative;}
+.shopcar span{display: block;float: left;text-align: center;position: relative;}
+.shopcar input[type="checkbox"]{position: relative;top: 2px;}
+.shopcar span.w1{width: 126px;text-align: left;padding-left: 10px;}
+.shopcar span.w2{width: 364px;text-align: left;}
+.shopcar span.w3{width: 100px;}
+.shopcar span.w4{width: 136px;}
+.shopcar span.w5{width: 126px;}
+.shopcar span.w6{width: 126px;}
+.shopcar h1 .fl{position: absolute;left: 0px;top: 0px;}
+
+
+.shopcar ul{margin: 20px 0;}
+.shopcar li{background: #faf8f8;border: solid 1px #bebebe;font-size: 14px;color: #333333;padding: 5px 0;height: 100px;position: relative;border-bottom: 0;}
+.shopcar li input[type="checkbox"]{position: absolute;top: 10px;}
+.shopcar li img{position: relative;left: 20px;}
+.shopcar li span.w2 p{padding-left: 8px;width: 180px;overflow: hidden;line-height: 32px;}
+.shopcar li span.w2 .edit{position: absolute;left: 200px;top: 0px;line-height: 32px;padding: 0px 6px;height: 100px;}
+.shopcar li span.w2 .edit.active,.shopcar li span.w2 .edit:hover{border: dashed 1px #606976;}
+.shopcar li span.w2 .edit a,.shopcar li span.w2 .edit  a{position: absolute;padding: 1px 6px;font-size: 12px;color: #fff;background: #606976;right: 0px;top: 0px;display: none;}
+.shopcar li span.w2 .edit.active a,.shopcar li span.w2 .edit:hover a{display: block;}
+.shopcar li span{display: block;height: 100%;}
+.shopcar li span i{font-style: normal;position: relative;line-height: 100px;}
+.shopcar li span a{color: #3263aa;position: relative;display: block;text-align: center;}
+.shopcar li span a.del{top: 20%;}
+.shopcar li span a.fav{top: 40%;}
+.shopcar li span input{display: inline;}
+.shopcar li span input[type="button"]{width: 19px;height: 19px;line-height: 19px;padding: 0;border: 0;float: left;top: 40px;position: relative;}
+.shopcar li span input[type="text"]{width: 36px;padding: 0;height: 17px;border: solid 1px #ebebeb;position: relative;top: 40px;float: left;color: #666;text-align: center;}
+.shopcar li span input[type="button"].plus{margin-left: 32px;}
+.shopcar li span.w2 .editCon{width: 152px;padding: 10px;border: solid 1px #979797;position: absolute;left: 306px;top: 44px;z-index: 999;background: #fff;display: none;}
+.shopcar li span.w2 .editConArrow{width: 18px;height: 10px;background: url(../img/editCon.png);position: absolute;left: 10px;top: -9px;}
+.shopcar li span.w2 .editConBd{color: #333;padding-left:40px;position: relative;padding-bottom: 10px;}
+.shopcar li span.w2 .editConBd span{display: block;position: absolute;left: 0px;top:-4px;}
+.shopcar li span.w2 .editConBd a.check{width: 80px;height: 20px;line-height: 20px;color: #333;border: solid 1px #979797;margin-bottom: 10px;}
+.shopcar li span.w2 .editConBd a:hover,.shopcar li span.w2 .editConBd a.active{border: solid 1px #488de8;}
+.shopcar li span.w2 a.ok{display: inline-block;width: 68px;height: 24px;line-height: 24px;color: #fff;text-align: center;border: solid 1px #5b646e;background: #707c89;position: relative;left: 40px;}
+.shopcar li span.w2 a.cancle{display: inline-block;position: relative;left: 45px;}
+
+.shopcar .shopBtn{background: #fff;border: solid 1px #bebebe;position: relative;padding-bottom: 24px;padding-right: 24px;}
+.shopcar .shopBtn .price{font-size: 12px;color: #333;text-align: right;padding: 20px 0px;}
+.shopcar .shopBtn .price span{font-size: 30px;color: #f60000;position: relative;float: none;display: inline;}
+.shopcar .shopBtn .tips{color: #f60000;font-size: 12px;position: absolute;left: 10px;top: 10px;}
+.shopcar .shopBtn a,.payBtn a{width: 113px;height: 41px;text-align: center;color:#fff;line-height: 40px;font-size: 14px;display: inline-block;float: right;}
+.shopcar .shopBtn a.go{background: url(../img/greyBtn.png);margin-right: 24px;}
+.shopcar .shopBtn a.buy,.payBtn a{background: url(../img/orangeBtn.png);}
+
+.shopTitle p{height: 24px;font-size: 14px;line-height: 24px;position: relative;}
+.shopTitle p{background: #ebebeb;padding: 5px 12px;border: solid 1px #bebebe;}
+.shopTitle p a{position: absolute;font-size: 12px;color: #3263aa;right: 20px;top: 6px;}
+.shopTitle p span{position: absolute;right: 10px;top: 6px;display: block;width: 100px;height: 20px;}
+.shopTitle p span label{display: inline-block;cursor: pointer;}
+.shopTitle p span input[type="checkbox"]{margin-right: 4px;cursor: pointer;}
+
+.shopAddress{border: solid 1px #bebebe;padding: 20px 15px;border-top: 0;}
+.shopcar .shopAddress span{position: relative;display: inline;float: none;margin-right: 14px;font-size: 12px;}
+.shopcar .shopAddress input[type="radio"]{position: relative;top: 2px;}
+.shopcar .shopAddress .shopAddressInfo{position: relative;padding-bottom: 10px;}
+.shopcar .shopAddress .shopAddressInfo a{position: absolute;color: #3263aa;top: 4px;font-size: 12px;right: 20px;}
+.shopcar .shopAddress .shopAddressInfo a.redit{right: 160px;}
+.shopcar .shopAddress .shopAddressInfo a.del{right:100px;}
+
+.addNewAddress{border-top: solid 1px #bebebe;padding-top:10px;padding-bottom: 0px}
+.addNewAddress input[type="button"]{background: #606976;color: #fff;font-size: 12px;padding: 4px 8px;border: 0;}
+
+.addNewCon{padding-top: 10px;font-size: 12px;display: none;}
+.addNewCon .conInfo{padding: 5px 0;width: 100%;}
+.addNewCon .conInfo span{float: left;}
+.addNewCon span.fl{width: 60px;display: block;position: relative;top:4px;}
+.addNewCon input[type="text"]{padding: 0px;height: 20px;}
+.addNewCon input[type="text"].name,.addNewCon input[type="text"].tel{width: 140px;}
+.addNewCon input[type="text"].address{width: 440px;}
+.addNewCon .often{margin:10px 0px 15px 4px;}
+
+.addNewCon a{display: block; background: url(../img/longOrangeBtn.png);width: 119px;height: 33px;line-height: 32px;font-size: 14px;text-align: center;color: #fff;}
+
+/*支付平台*/
+.payPt{border: solid 1px #bebebe;padding: 20px 15px;border-top: 0;}
+.payPt p{font-size: 12px;}
+.payPt ol {border-bottom: solid 1px #bebebe;margin-bottom: 20px; padding-top: 10px;}
+.payPt ol li{background: none;border: 0;height: 60px;float: left;width: 200px;}
+.payPt ol li input[type="radio"]{position: relative;top: -13px;cursor: pointer;}
+.payPt ol li label{width: 130px;height: 40px;cursor: pointer;}
+
+/*购物车清单*/
+.shopList{border: solid 1px #bebebe;padding: 20px 0px;border-top: 0;text-align: center;}
+.shopList span{display: block;margin-right: 4px;text-align: center;}
+.shopList span.w1{width: 480px;}
+.shopList span.w2{width: 160px;}
+.shopList span.w3{width: 162px;}
+.shopList span.w4{width: 164px;margin-right: 0px;}
+.shopList .shopListT span{border-bottom: solid 3px #606976;}
+.shopList .shopListT span.w1,.shopList .shopListT span.w2,.shopList .shopListT span.w3,.shopList .shopListT span.w4{text-align: center;font-size: 14px;color:#606976;padding-bottom: 6px; }
+
+.shopListCon{background:#faf8f8;height: 110px;border-bottom: solid 1px #bebebe;font-size: 14px;position: relative;}
+.shopList .shopListCon span{height: 100px;}
+.shopList .shopListCon span.w2,.shopList .shopListCon span.w3,.shopList .shopListCon span.w4{line-height: 110px; text-align: center;font-size: 14px;color:#606976;padding-bottom: 6px; }
+.shopList .shopListCon span.w1 img{width: 93px;height: 93px;position: absolute;top: 9px;left: 10px;vertical-align: bottom;}
+.shopList .shopListCon span.w1 p,.shopList .shopListCon span.w1 h4{padding-left: 120px;position: relative;}
+.shopList .shopListCon span.w1 p{top:14px;color: #333;}
+.shopList .shopListCon span.w1 h4{padding-top:30px;color: #666;}
+
+.restInfo{border: solid 1px #bebebe;padding: 20px 0px;border-top: 0;}
+.restInfo strong{width: 30%;display: inline-block;font-weight: normal;font-size: 14px;text-indent: 30px;color: #666;}
+
+.payBtn{padding: 10px;font-size: 14px;color: #666;position: relative;}
+.payBtn p{padding: 5px 0;}
+.payBtn i{font-style: normal;}
+.payBtn .priceInfo{position: absolute;right: 190px;bottom: 10px;}
+.payBtn .priceInfo strong{font-size: 36px;color: #d74c30;font-weight: normal;padding-left: 10px;}
+.payBtn a{bottom: 10px;position: absolute;right: 40px;}
+
+
+.shopTitle.message p{padding:30px 15px;position: relative;background: #faf8f8;}
+
+.shopTitle.message textarea{width: 860px;height: 50px;position: relative;top: -20px;margin-left: 10px;}
+
+.coupon,.sendTime{margin-top: 20px;position: relative;height: 140px;}
+.couTab{width: 490px;height: 40px;left: 0;top: 0;x}
+.couTab a{width: 245px;float: left;height: 40px;background: url(../img/shopcarIcon.jpg) -245px 0;text-align: center;line-height: 40px;font-size: 14px;color: #333;}
+.couTab a.active{background-position: 0px 0px;}
+
+.sendCon,.couponCon{border: solid 1px #bebebe;height: 100px;border-top: 0;}
+.sendCon input[type="radio"],.sendCon label{cursor: pointer;position: relative;top: 40px;}
+.sendCon input[type="radio"]{margin-left: 70px;}
+
+.couponCon{font-size: 12px;}
+.couponCon input[type="radio"],.couponCon label{cursor: pointer;position: relative;}
+.couponCon .couponTemp{padding: 0px 20px;padding-top: 20px;}
+.couponCon input[type="radio"]{top: 2px;margin-left: 14px;}
+.couponCon label{margin-right: 20px;}
+.couponCon select{width: 100px;}
+.couponCon input[type="text"]{width: 260px;padding: 0;height: 16px;margin-left: 14px;}
+.couponCon input[type="button"]{width: 77px;height: 22px;position: relative;top: 1px;font-size: 12px;line-height: 12px; display: inline-block; background: url(../img/smallOrangeBtn.png);text-align: center;color: #fff;border: 0;}
+
+
+
+
+

@@ -1,0 +1,228 @@
+@charset "utf-8";
+/* CSS Document */
+.Thead{
+	position: relative;
+}
+.Thead .closeA{
+	display: block;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	width: 16px;
+	height: 16px;
+	background: url(../images/closeA_03.png) no-repeat center center;
+	cursor: pointer;
+}
+
+/*404*/
+.img404,.ErrorW,.btn404{
+	float: left;
+	padding: 20px;
+}
+.ErrorW h4{
+	font-size: 30px;
+}
+.ErrorW p{
+	font-size: 18px;
+}
+.btnw,.btnw:hover{
+	display: block;
+	line-height: 44px;
+	height: 44px;
+	text-align: center;
+	color: #fff;
+}
+
+/*以下为通用属性*/
+
+	.footer-link>ul{
+		 margin:0 40px;
+	}
+	.footer-link>ul>li>ul{
+		 padding:0 40px;
+	}
+	.container{
+		padding-left:0 !important;
+		padding-right:0 !important;
+	}
+	.height66{
+		height:40px;
+	}
+	.paddingT120{
+		padding-top:119px;
+	}
+	.paddingT150{
+		padding-top:150px;
+	}
+	.contanter-son{
+		width:100%;
+	}
+	.carousel-inner {
+	  width:100%;
+	}
+	.paddingTb50{
+		padding-top:50px;
+		padding-bottom:50px;
+	}
+	.paddingTb30{
+		padding-top:30px;
+		padding-bottom:30px;
+	}
+	.marginTop20{
+		margin-top:20px;
+	}
+	.marginright50{
+		margin-right:36px;
+	}
+	.marginbottom50{
+		margin-bottom:36px;
+	}
+	.paddingTop20{
+		padding-top:20px;
+	}
+	.paddingB40{
+		padding-bottom:40px;
+	}
+	/*头部*/
+	.indexLogo{
+		width:190px;
+		height:40px;
+		display:block;
+	}
+	.indexLogo img{
+		 width: 100%;
+		 margin-top: -2px;
+	}
+	.sousuoM{
+		display: none;
+	}
+	.service-title{
+		margin:40px auto 0;
+	}
+	.familyB{
+		padding:5px;
+	}
+	.tanBb{
+		display: table-cell;
+		vertical-align: middle;
+		text-align: center;
+	}
+	.tanc{
+		position: relative;
+		background: #fff;
+		border-radius: 4px;
+		padding:10px;
+		display: inline-block;
+		width:460px;
+		vertical-align: top;
+		text-align: left;
+	}
+	.Tbody{
+		padding: 10px;
+		min-height:80px;
+	}
+	.Tbody .control-group{
+		padding-top: 10px !important;
+		margin-left:15px;
+	}
+	.Thead{
+		border-bottom: 1px solid #ddd;
+		height: 40px;
+	}
+	.Tbody label.control-label2{
+		width:90px !important;
+		padding-top: 7px !important;
+	}
+	.Tbody .controls input{
+		width: 280px;
+	}
+	.Thead h4{
+		display: block;
+		margin: 0 !important;
+		padding: 10px 0 !important;
+		text-indent:1em;
+	}
+	.Tfoot{
+		padding-top:20px;
+		padding-bottom: 10px;
+	}
+	.Tfoot a.TbtnA1{
+		width: 320px;
+	}
+	.Tfoot a.TbtnA1 {
+		margin-left:60px;
+	}
+	/*error*/
+	.error404{
+		padding:100px 30px;
+		min-height: 600px;
+	}
+	.img404{
+		margin-left:100px;
+	}
+	.ErrorW{
+		width: 360px;
+	}
+	.btnw,.btnw:hover{
+		width: 148px;
+		margin-top: 20px;
+	}
+.navbar{
+	margin-bottom: 0;
+	border: none !important;
+}
+.navbar-right{
+	float: right !important; 
+}
+.nav > li{
+	float: left !important;
+}
+.navbar-header{
+	float: left;
+}
+.navbar-form {
+    width: auto;
+    border: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding: 0 !important;
+    margin:5px 0px 5px 20px !important;
+}
+.navbar-form>div,.navbar-form>button{
+	float: left;
+	display: block !important;
+}
+.navbar-form input{
+	display: block !important; 
+}
+.navbar-collapse{
+	border: none !important;
+}
+.navbar-header img{
+	display: block;
+	height: 40px;
+}
+.navbar-nav > li > a{
+	line-height: 20px !important;
+	padding-top:10px !important;
+	padding-bottom:10px !important;
+}
+.form-control{
+	height: 30px;
+}
+.form-group {
+	margin-bottom:  0 !important;
+}
+@media (min-width:992px){
+	.navbar,.row-fluid,.contanter-son{
+		width:100%;
+	}
+}
+
+@media (max-width:991px){
+	.navbar,.row-fluid,.contanter-son{
+		width:970px;
+	}
+}

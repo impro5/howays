@@ -1,0 +1,491 @@
+@charset "utf-8";
+/* CSS Document */
+.Thead{
+	position: relative;
+}
+.Thead .closeA{
+	display: block;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	width: 16px;
+	height: 16px;
+	background: url(../images/closeA_03.png) no-repeat center center;
+	cursor: pointer;
+}
+
+/*404*/
+.img404,.ErrorW,.btn404{
+	float: left;
+	padding: 20px;
+}
+.ErrorW h4{
+	font-size: 30px;
+}
+.ErrorW p{
+	font-size: 18px;
+}
+.btnw,.btnw:hover{
+	display: block;
+	line-height: 44px;
+	height: 44px;
+	text-align: center;
+	color: #fff;
+}
+.navbar {
+    margin-bottom: 0;
+    border: none !important;
+}
+.weixinErwei{
+	position: relative;
+	line-height: 37px;
+	font-size: 12px;
+}
+/*以下为通用属性*/
+@media (min-width:992px){
+	.contanter-son{
+		width:100%;
+	}
+	
+}
+
+@media (min-width:768px) and (max-width:991px){
+	.contanter-son{
+		width:970px;
+	}
+}
+@media (min-width: 768px) {
+	.footer-link>ul{
+		 margin:0 40px;
+	}
+	.footer-link>ul>li>ul{
+		 padding:0 40px;
+	}
+	.navbar{
+		width:100%;
+	}
+	.container{
+		padding-left:0 !important;
+		padding-right:0 !important;
+	}
+	.height66{
+		height:40px;
+	}
+	.paddingT120{
+		padding-top:72px;
+	}
+	.paddingT150{
+		padding-top:150px;
+	}
+	.contanter-son{
+		width:100%;
+	}
+	.carousel-inner {
+	  width:100%;
+	}
+	.paddingTb50{
+		padding-top:50px;
+		padding-bottom:50px;
+	}
+	.paddingTb30{
+		padding-top:30px;
+		padding-bottom:30px;
+	}
+	.marginTop20{
+		margin-top:20px;
+	}
+	.marginright50{
+		margin-right:36px;
+	}
+	.marginbottom50{
+		margin-bottom:36px;
+	}
+	.paddingTop20{
+		padding-top:20px;
+	}
+	.paddingB40{
+		padding-bottom:40px;
+	}
+	.row-fluid{
+		
+	}
+	/*头部*/
+	.indexLogo{
+		width:190px;
+		height:40px;
+		display:block;
+	}
+	.indexLogo img{
+		 width: 100%;
+		 margin-top: -2px;
+	}
+	.sousuoM{
+		display: none;
+	}
+	.service-title{
+		margin:40px auto 0;
+	}
+	.familyB{
+		padding:5px;
+	}
+	.imgbg1,.imgbg2,.imgbg3{
+		height:650px !important;
+	}
+	.tanBb{
+		display: table-cell;
+		vertical-align: middle;
+		text-align: center;
+	}
+	.toptoptext{
+		margin-bottom: 0 !important;
+	}
+	.tanc{
+		position: relative;
+		background: #fff;
+		border-radius: 4px;
+		padding:10px;
+		display: inline-block;
+		width:460px;
+		vertical-align: top;
+		text-align: left;
+	}
+	.Tbody{
+		padding: 10px;
+		min-height:80px;
+	}
+	.Tbody .control-group{
+		padding-top: 10px !important;
+		margin-left:15px;
+	}
+	.Thead{
+		border-bottom: 1px solid #ddd;
+		height: 40px;
+	}
+	.Tbody label.control-label2{
+		width:90px !important;
+		padding-top: 7px !important;
+	}
+	.Tbody .controls input{
+		width: 280px;
+	}
+	.Thead h4{
+		display: block;
+		margin: 0 !important;
+		padding: 10px 0 !important;
+		text-indent:1em;
+	}
+	.Tfoot{
+		padding-top:20px;
+		padding-bottom: 10px;
+	}
+	.Tfoot a.TbtnA1{
+		width: 320px;
+	}
+	.Tfoot a.TbtnA1 {
+		margin-left:60px;
+	}
+	/*error*/
+	.error404{
+		padding:100px 30px;
+		min-height: 600px;
+	}
+	.img404{
+		margin-left:100px;
+	}
+	.ErrorW{
+		width: 360px;
+	}
+	.btnw,.btnw:hover{
+		width: 148px;
+		margin-top: 20px;
+	}
+	.navbar-nav > li > a {
+        line-height: 20px !important;
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+    }
+    .footer ul{
+		width: 678px;
+		margin-top: 10px;
+	}
+	.footer li{
+		padding: 0 15px;
+		float: left;
+		font-size: 12px;
+	}
+	.weixinErwei>span{
+		display: block;
+		float: left;
+	}
+	.weixinErwei{
+		margin-left: 30px;
+	}
+}
+
+@media (max-width:767px){
+	.paddingTb50{
+		padding-top:30px;
+		padding-bottom:30px;
+	}
+	.paddingTb30{
+		padding-top:10px;
+		padding-bottom:10px;
+	}
+	.marginTop20{
+		margin-top:10px;
+	}
+	.marginright50{
+		margin-right:18px;
+	}
+	.marginbottom50{
+		margin-bottom:18px;
+	}
+	.paddingTop20{
+		padding-top:10px;
+	}
+	
+	.paddingB40{
+		padding-bottom:20px;
+	}
+	.container{
+		padding-left:5px ;
+		padding-right: 5px;
+		width: 100%;
+	}
+	.navbar{
+		min-height: 40px !important;
+		border: none;
+	}
+	.navbar-nav{
+		border-bottom: 1px solid #5d5d5d;
+		border-top: 1px solid #5d5d5d;
+	}
+	.navbar{
+		width:100%;
+	}
+	.navbar-collapse{
+		z-index: 999;
+		background-color: #fff;
+		box-shadow: 0px 1px 8px rgba(0,0,0,0.5);
+		-webkit-box-shadow: 0px 1px 8px rgba(0,0,0,0.5);
+	}
+	.dropdown-toggle,.dropdown-menu,.dropdown{
+		color: #000;
+	}
+	.navbar-default .navbar-nav > li > a {
+		color: #000 !important;
+	}
+	.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+		background-color: #a31f46;
+		color: #fff !important;
+	}
+	
+	.navbar-toggle{
+		border: none;
+		margin-right: 15px;
+		padding: 9px 10px;
+		margin-top:4px;
+		margin-bottom:4px;
+	}
+	.navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+		background-color: none !important;
+	}
+	.navbar-nav > li > a:focus{
+		color:#000 !important;
+	}
+	.icon-bar{
+		width: 30px !important;
+		height: 3px !important;
+		background-color: #fff !important;
+	}
+	.dropdown{
+		border-bottom: 1px solid #ccc;
+	}
+	html,body{
+		width: 100%;
+	}
+	.height66{
+		height:44px;
+	}
+	.open>ul>li a{
+		background-color: #eaeaea;
+	}
+	.open>ul>li a:hover,.open>ul>li a:focus{
+		background-color: #ddd !important;
+	}
+	.row-fluid{
+		
+	}
+	/*共用头部*/
+	.indexLogo,.indexLogo2{
+		margin: 0 auto;
+	}
+	.footer-link{
+		width: 100%;
+	}
+	.footer-link>ul{
+		 width: 100%;
+	}
+	.footer-link>ul>li{
+		 width: 100%;
+	}
+	.footer-link>ul>li>ul{
+		width: 33.33%;
+		padding:0 20px;
+	}
+	
+	.indexLogo{
+		width:127px;
+		height:44px;
+		display:block;
+	}
+	.indexLogo img{
+		width: 100%;
+		margin-top: -1px;
+		vertical-align: middle;
+	}
+	.indexLogo2{
+		width:127px;
+		height:44px;
+		display:block;
+		
+	}
+	.indexLogo2 img{
+		width: 100%;
+		margin-top: -1px;
+		margin-left: -15px;
+		vertical-align: middle;
+	}
+	.mobIcon{
+		width: 44px;
+		height: 44px;
+		float: right;
+		margin-right: 10px;
+	}
+	.mobIcon img{
+		width: 100%;
+	}
+	.sousuoM{
+		position: fixed;
+		z-index: 1031;
+		top: 44px;
+		left: 0;
+		width: 100%;
+		background: #fff url(../images/sousuom2.png) no-repeat -5px center;
+		border: 1px solid #BABABA;
+	}
+	.sousuoM input{
+		font-size: 1.4em;
+		display: block;
+		border: none;
+		background: none;
+		padding:10px;
+		width: 100%;
+		text-indent: 44px;
+	}
+	
+	.service-info,.brand,.cooperative-de,.service-title{
+		width: 100% !important;
+	}
+	
+	.familyB{
+		width: 50%;
+		padding: 5px;
+	}
+	.imgbg1,.imgbg2,.imgbg3{
+		height:240px !important;
+	}
+	.tanB{
+		width: 100%;
+	}
+	.tanBb{
+		padding: 10px;
+		vertical-align: middle;
+		text-align: center;
+		display: table-cell;
+	}
+	.tanc{
+		position: relative;
+		background: #fff;
+		border-radius: 4px;
+		padding:10px;
+		display: inline-block;
+		width: 100%;
+		vertical-align: top;
+		text-align: left;
+	}
+	.Thead{
+		border-bottom: 1px solid #ddd;
+		height: 40px;
+	}
+	.Tbody label.control-label2{
+		width:90px !important;
+		padding-top: 7px !important;
+	}
+	.Thead h4{
+		display: block;
+		margin: 0 !important;
+		padding: 10px 0 !important;
+		text-indent:1em;
+	}
+	.Tfoot{
+		padding-top:20px;
+		padding-bottom: 10px;
+	}
+	.paddingT120{
+		padding-top:44px;
+	}
+	.paddingT150{
+		padding-top:44px;
+	}
+	/*error*/
+	.error404{
+		padding-bottom:50px;
+		padding-top: 30px;
+	}
+	.img404,.ErrorW,.btn404{
+		width: 100%;
+		text-align: center;
+	}
+	.img404{
+		text-align: center;
+	}
+	.img404 img{
+		margin: 0 auto;
+	}
+	.btnw,.btnw:hover{
+		width: 100%;
+	}
+	.footer ul{
+		width:100%;
+		margin-top: 10px;
+	}
+	.footer li{
+		padding: 10px 15px;
+		width: 33.333%;
+		float: left;
+	}
+	.weixinErwei{
+		text-align: center;
+	}
+	.weixinErwei>span{
+		display: inline-block;
+		text-align: center;
+	}
+	.weixinErwei{
+		width: 100%;
+	}
+	.carousel-indicators li{
+		width:10px !important;
+	}
+}
+
+/*新增*/
+.navbar-form input {
+    display: block !important;
+}
+.form-control {
+    height: 30px;
+}
+
+

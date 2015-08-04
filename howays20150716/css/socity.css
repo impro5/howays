@@ -1,0 +1,90 @@
+body{background: #f2f0f0;}
+.socityL{width: 735px;}
+
+.title{height: 60px;line-height: 60px;margin-top: 10px; background: #d3d3d3;text-align: center;font-size: 16px;}
+.title a{color: #666;width: 145px;float: left;display: block;border-left: solid 1px #fff;border-right: solid 1px #444c58;}
+.title a.active{background: #5c6572;color: #fff;}
+
+/*晒单瀑布流*/
+.tabCon2{padding-bottom: 40px;}
+.tabCon2 ul{width: 230px;float: left;padding-top: 10px;margin-left: 2px;margin-right: 13px;}
+.tabCon2 ul li{padding: 5px;border: solid 1px #ddd;margin-bottom: 10px;background: #fff;}
+.tabCon2 ul li a{display: block;background: #fff;padding: 5px;}
+.tabCon2 ul li img{width: 100%;}
+.tabCon2 ul li p{color: #666;font-size: 14px;padding: 15px 0px;}
+.tabCon2 .iconBg{position: relative;width: 100%;background: #fff;height: 36px;border-bottom: solid 1px #dddddd;}
+.tabCon2 .favorite,.tabCon2 .collect,.tabCon2 .share{float: left; text-indent: 6px; position: relative;line-height: 23px; padding-left: 22px; padding-right: 8px; padding-top: 10px;cursor: pointer;font-size: 12px;color: #666;}
+.tabCon2 .share{position: absolute;right: -4px;top: 2px;}
+.tabCon2 .icon{width: 42px;height: 23px;background-image: url(../img/productdetail/icon.png);display: block;position: absolute;top: 4px;left: -10px;}
+.tabCon2 .icon:hover{background-image: url(../img/productdetail/iconHover.png);}
+.tabCon2 .icon1{background-position: 0px 0;}
+.tabCon2 .icon2{background-position: -36px 0;}
+.tabCon2 .icon3{background-position: -76px 0;}
+.tabCon2 .people {padding-left: 45px;color: #666;font-size: 12px;height: 42px;line-height: 42px;position: relative;}
+.tabCon2 .people img{width: 30px;height: 30px;border-radius: 15px;position: absolute;left: 6px;top: 7px;}
+
+.fr{width: 232px;}
+.socityR{width: 230px;border: solid 1px #dddddd;margin-top: 10px;background: #fff;padding-bottom: 20px;}
+.socityR h4{height: 40px;line-height: 40px;background: #e56e6e;color: #f2f0f0;font-size: 18px;text-align: center;}
+.socityR h4 img{position: relative;margin-right: 8px;top: 6px;}
+
+.socityR div{padding: 30px 40px;padding-bottom: 60px;border-bottom: dashed 1px #ddd;position: relative;font-size: 14px;}
+.socityR div img{width: 100%;}
+.socityR div .name{color: #666;display: block;position: absolute;left: 40px;bottom: 30px;}
+.socityR div .shareTmp{display: block;position: absolute;font-size: 12px;bottom: 10px;color: #999;}
+.socityR div .shareTmp i{width: 10px;height: 12px;background: url(../img/smshare.png);display: inline-block;position: relative;top: 1px;}
+.socityR div .love{display: block;position: absolute;right: 40px;font-size: 12px;bottom: 10px;text-align: center;color: #f07272;}
+.socityR div .love i{width: 42px;height: 23px;background-image: url(../img/productdetail/iconHover.png);background-position: 0px 0;display: block;}
+
+
+.giftBanner{height: 250px;width: 100%;background: #ddd;margin-top: 20px;}
+.indexBanner.listBanner{height: 250px;}
+.giftBanner .fl{width: 690px;}
+.giftBanner .fl .flexslider img{width: 690px;height: 250px;}
+.flex-direction-nav li a{display: none;}
+.giftBanner .fr{width: 270px;padding: 10px;color: #666;}
+.giftBanner .fr h4{text-indent: 4px;border-bottom: solid 1px #999;padding-bottom: 4px;line-height: 24px;margin-bottom: 20px;}
+.giftBanner .fr h4 img{position: relative;top: 4px;margin-right: 6px;}
+.giftBanner .fr p{font-size: 14px;text-indent: 14px;line-height:30px;height: 30px;}
+.giftBanner .fr p.n{background: #f2f0f0;}
+
+.flex-control-nav {
+width: auto;
+position: absolute;
+bottom: 40px;
+right: 10px;
+z-index: 999;
+height: 30px;
+}
+.flex-control-nav li {
+margin: 0 2px!important;
+display: inline-block;
+zoom: 1;
+}
+.flex-control-paging li a {
+width: 10px;
+height: 10px;
+display: block;
+background: #f2f0f0;
+cursor: pointer;
+text-indent: -9999px;
+border-radius: 10px;
+}
+.flex-control-paging li a.flex-active {
+height: 10px;
+background-color: #F00;
+cursor: pointer;
+}
+
+.gift{color: #666;}
+.gift h4{width: 100%;height: 45px;line-height: 45px;text-indent: 20px; background: #dddddd;margin-top: 20px;font-size: 16px;}
+.gift h4 img{position: relative;top: 6px;margin-right: 10px;}
+.gift .line{width: 100%;height: 1px;background: #ddd;margin-top: 20px;}
+.gift .zd{background: #fff;padding: 40px;margin-top: 10px;font-size: 12px;line-height: 24px;}
+.gift .zd p{padding-bottom: 10px;}
+.gift .giftUl{margin-top: 10px;margin-bottom: 40px;}
+.gift .giftUl li{position: relative; width: 205px;margin-right: 14px; margin-bottom: 14px; font-size: 12px; padding: 15px; background: #fff; border: solid 1px #d5d3d3;box-shadow: 2px 2px 2px #ddd;float: left;}
+.gift .giftUl li.mg0{margin-right: 0px;}
+.gift .giftUl li img{width: 205px;height: 205px;}
+.gift .giftUl li p{padding-top: 6px;}
+.gift .giftUl li span{padding-top: 6px;display: block;color: #f60f0f;}

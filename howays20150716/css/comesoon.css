@@ -1,0 +1,166 @@
+@charset "utf-8";
+/* CSS Document */
+.comeon{
+	background: url(../images/comeon.jpg) no-repeat center center;
+}
+.comeSoon{
+	padding: 10px;
+}
+.comeIcon span{
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	*position:absolute;
+	left:50%;
+	top: 50%;
+}
+.comeIcon span img{
+	*position: relative;
+	left: -50%;
+	top: -50%;
+	vertical-align: top;
+}
+
+.comeInput .inputB{
+	padding-right: 100px;
+}
+.inputB input{
+	padding:10px 10px;
+	line-height: 24px;
+	height: 44px;
+	background-color:#fff;
+	border: none;
+	display: block;
+	width: 100%;
+}
+.comeInput a{
+	display: block;
+	width: 100px;
+	height: 44px;
+	line-height: 44px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	text-align: center;
+	color: #333;
+	font-size: 12px;
+	text-decoration: none;
+	background-color: #D7D7D7;
+}
+.comeInput a:hover{
+	background-color: #d1d1d1;
+}
+@media (min-width:992px){	
+		.comeon{
+			background-size:100% auto ;
+			height:800px;
+		}
+		.comeF{
+			position: absolute;
+			bottom: 0;
+		}
+}
+@media (min-width:768px) and (max-width:991px){
+	.comeon{
+			background-size:100% auto ;
+			height:650px;
+		}
+
+}
+@media (min-width: 768px) {
+	.comeIcon{
+		padding-top: 130px;
+		height: 150px;
+		position: relative;
+		display: table;
+		width: 100%;
+	}
+	.comeon{
+			background-size:100% 100% ;
+		}
+	.tishiE,.tishiC{
+		color: #FFF;
+		line-height:60px;
+		float: left;
+	}
+	.tishiE{
+		width:60%;
+		font-size:48px;
+		text-align: right;
+	}
+	.tishiC{
+		width:40%;
+		text-indent: 40px;
+		font-size:30px;
+	}
+	.tishiB{
+		width:90%;
+		margin: 20px auto;
+	}
+	.textT{
+		width:60%;
+		margin:20px auto;
+	}
+	.textT p{
+		width: 100%;
+		line-height:32px;
+		font-size:16px;
+		text-align: center;
+		color: #fff;
+	}
+	.comeInput{
+		width: 50%;
+		margin:20px auto;
+		position: relative;
+	}
+
+}
+
+@media (max-width: 767px) {
+	.comeIcon{
+		padding-top:84px;
+		height: 150px;
+		position: relative;
+		display: table;
+		width: 100%;
+	}
+	.comeon{
+		padding-bottom:60px;
+	}
+	.tishiE,.tishiC{
+		color: #FFF;
+		line-height:40px;
+		float: left;
+	}
+	.tishiE{
+		width:100%;
+		font-size:36px;
+		text-align: center;
+	}
+	.tishiC{
+		width:100%;
+		font-size:24px;
+		text-align: center;
+	}
+	.tishiB{
+		width:100%;
+		margin: 20px auto;
+	}
+	.textT{
+		width:100%;
+		margin:20px auto;
+	}
+	.textT p{
+		width: 100%;
+		line-height:28px;
+		font-size:14px;
+		text-align: center;
+		color: #fff;
+	}
+	.comeInput{
+		width:100%
+		margin:20px auto;
+		position: relative;
+	}
+
+}

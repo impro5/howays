@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+<meta content="1157650062665164176375" property="qc:admins">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>我的订单</title>
+<link rel="stylesheet" href="css/bootstrap.css">
+<!--上面的是去除响应式css-->
+<link rel="stylesheet" href="css/public.css">
+<link rel="stylesheet" href="css/publicM.css">
+<link rel="stylesheet" href="css/center.css">
+<link rel="stylesheet" href="css/car.css">
+<link rel="stylesheet" href="css/chosen.css">
+<script src="js/jquery-1.7.2.min.js"></script>
+<script src="js/Birthday/birthday.js" type="text/javascript"></script>
+<script src="js/jquery.chosen.min.js"></script>
+<script src="js/CitysLine/Area.js" type="text/javascript"></script>
+<script src="js/CitysLine/AreaData_min.js" type="text/javascript"></script>
+
+<script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.js"></script>
+</head>
+<body>
+	<SCRIPT>
+	     $(function () {
+          initComplexArea('seachprov', 'seachcity', 'seachdistrict', area_array, sub_array, '44', '0', '0');
+      });
+			$(function(){
+			         $('.chzn-select').chosen("destroy");
+			          $('.chzn-container').click(function(){
+			         	$(".chzn-select").trigger("liszt:updated");
+			         })
+			         $(function () {
+			            $.ms_DatePicker({
+			                YearSelector: ".sel_year",
+			                MonthSelector: ".sel_month",
+			                DaySelector: ".sel_day"
+			            });
+			            $.ms_DatePicker();
+			        });
+			})
+	</SCRIPT>
+	<div class="bgcolorgrayL ">
+            <nav class="navbar navbar-default navbar-fixed-top bgColor000" role="navigation" >	
+                   	  <div class="container-fluid h42 toptop position-relative hidden-xs" >
+                      		<div class="pull-left marginTop6 colorfff" style="display:none;">
+                            	<a>登陆</a>丨<a>注册</a>
+                            </div>
+                          <div class="dropdown pull-left user" >
+                                <a href="#" class="dropdown-toggle colorfff font12 user-name" data-toggle="dropdown" role="button" aria-expanded="false">原来是帅哥啊</a>
+                                  <ul class="dropdown-menu gray dropdown-menu-top" role="menu">
+                                  	<span></span>
+                                    <li><div class="colorred2 user-email">lc1561255@163.com</div></li>
+                                   
+                                    <li><div class="user-levels">VIP:普通用户</div></li>
+                                    <li class="divider"></li>
+                                    <li ><a href="#">我的个人中心</a></li>
+                                    
+                                    <li class="Lhidden"><a href="#">升级企业用户</a></li>
+                                    
+                                    <li><a href="#">我的订单（0）</a></li>
+                                    
+                                    <li class="Lhidden"><a href="#">我的优惠劵（0）</a></li>
+                                   
+                                    <li class="Lhidden"><a href="#">我的最爱（0）</a></li>
+                                    <li class="Lhidden"><a href="#">我的评论（0）</a></li>
+                                    <li><a href="#">账号设置（0）</a></li>
+                                    <li>
+                                    	<div class="quit">
+                                        	<a href="#">退出账号</a>
+                                        </div>
+                                   	</li>
+                                  </ul>
+                          </div>
+                          
+                          <div class="pull-right">
+                          		<ul class="list-unstyled list-inline margL10 colorfff font12 toptoptext" >
+                                	<li class="dropdown">
+                                    	<a href="#" class="dropdown-toggle toptopIcon " data-toggle="dropdown" role="button" aria-expanded="false"><span class="shopcar"></span><span>购物车(0)</span></a>
+                                    	<ul class="dropdown-menu dropdown-menu-top dropdown-menu-position goods-list dropdown-menu-right" role="menu">
+                                        	<span></span>
+                                        	<li>
+                                            	<a href="javascript:;" class="goods-s">
+                                                	<ul class="list-unstyled  clearfix">
+                                                    	<li class="pull-left"><img src="images/shoppingCart_productPic.jpg" /></li>
+                                                        <li class="pull-left marginL">
+                                                        	<div class="text-hidden">
+                                                        		创意情侣杯一对超有爱对超有爱对超有爱
+                                                        	</div>
+                                                           <div>
+                                                                <span>颜色：红色</span>
+                                                                <span>尺寸：500ml</span>
+                                                           </div>
+                                                        </li>
+                                                        <li class="pull-right">
+                                                        	<h6>
+                                                            	￥50000&nbsp;X&nbsp;1
+                                                            </h6>
+                                                        </li>
+                                                    </ul>
+                                                </a>
+                                            </li>
+                                            <li>
+                                            	<a href="javascript:;" class="goods-s">
+                                                	<ul class="list-unstyled  clearfix">
+                                                    	<li class="pull-left"><img src="images/shoppingCart_productPic.jpg" /></li>
+                                                        <li class="pull-left marginL">
+                                                        	<div class="text-hidden">
+                                                        		创意情侣杯一对超有爱对超有爱对超有爱
+                                                        	</div>
+                                                           <div>
+                                                                <span>颜色：红色</span>
+                                                                <span>尺寸：500ml</span>
+                                                           </div>
+                                                        </li>
+                                                        <li class="pull-right">
+                                                        	<h6>
+                                                            	￥50000&nbsp;X&nbsp;1
+                                                            </h6>
+                                                        </li>
+                                                    </ul>
+                                                </a>
+                                            </li>
+                                            <li class="total">
+                                            	<div class="clearfix">
+                                                	<span class="pull-left">商品总计</span>
+                                                    <span class="pull-right"><b>￥500000</b></span>
+                                                </div>
+                                                <div><a href="javascript:;" class="bgColorred2 pull-right text-center" >查看购物车</a></div>
+                                            </li>
+                                            
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown Lhidden">
+                                    	<a class="dropdown-toggle toptopIcon" data-toggle="dropdown" role="button" aria-expanded="false"><span class="meassege"></span><span>消息(0)</span></a>
+                                             <ul class="dropdown-menu dropdown-menu-top dropdown-menu-position goods-list" role="menu">
+                                                    <span></span>
+                                                    <li>
+                                                        <a href="javascript:;" class="goods-s">
+                                                            <ul class="list-unstyled  clearfix">
+                                                                <li class="marginrl5">
+                                                                    <div class="text-hidden2">
+                                                                        创意情侣杯一对超有爱对超有爱对超有爱
+                                                                    </div>
+                                                                </li>
+                                                                <li class="margintb"> 
+                                                                    <div>
+                                                                        <span class="pull-left">
+                                                                            2015-14-12&nbsp;13:12
+                                                                        </span>
+                                                                        <span class="pull-right">系统消息</span>
+                                                                     </div>
+                                                                </li>
+                                                            </ul>
+                                                        </a>
+                                                    </li>
+                                                   
+                                                    <li class="total2">
+                                                        <div><a href="javascript:;" class="bgColorred2 text-center marginTop20" >查看所有信息</a></div>
+                                                    </li>
+                                           </ul>
+                                    </li>
+                                    <li class=""><a>帮助中心</a></li>
+                                </ul>
+                          </div>
+                         </div>
+
+                          <div class="container-fluid bgColorred height66 position-relative " >
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                                <div class="navbar-header .navbar-fixed-top overflow">
+                                	<a class="mobIcon visible-xs-block" href="javascript:;">
+	                                  	<img src="images/memberM.png" />
+	                                  </a>
+                                	<a class="mobIcon visible-xs-block sousuoma" href="javascript:;">
+                                  		<img src="images/sousuoM.png" />
+                                  	</a>
+	                                <button type="button" class="navbar-toggle collapsed navbar-left" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+	                                    <span class="sr-only">Toggle navigation</span>
+	                                    <span class="icon-bar"></span>
+	                                    <span class="icon-bar"></span>
+	                                    <span class="icon-bar"></span>
+	                                  </button>
+	                                  <a class="indexLogo hidden-xs" href="#">
+	                                  		<img src="images/hws_index_03.jpg" />
+	                                  </a>
+	                                  <a class="indexLogo2 visible-xs-block" href="#">
+	                                  		<img src="images/logom_03.png" />
+	                                  </a>
+                                </div>
+                                <div class="sousuoM" style="display: none !important;">
+                                	<input type="text" value="输入关键字搜索" onfocus="this.value=''"/>
+                                </div>
+                                <!-- Collect the nav links, forms, and other content for toggling -->
+                                <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
+                                  <form class="navbar-form navbar-right h30 hidden-xs" role="search">
+		                            <div class="form-group">
+		                              <input type="text" class="form-control" placeholder="Search">
+		                            </div>
+		                            <button type="submit" class="btn search-btn"></button>
+		                          </form>
+                                  <ul class="nav navbar-nav navbar-right">
+                                    <li class="dropdown">
+                                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">首页 </a>
+                                      
+                                    </li>
+                                    <li class="divider visible-xs-block"></li>
+                                    <li class="dropdown">
+                                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">品牌故事</a>
+                                      
+                                    </li>
+                                     <li class="divider visible-xs-block"></li>
+                                    <li class="dropdown">
+                                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">产品介绍</a> 
+                                      
+                                    </li>
+                                     <li class="divider visible-xs-block"></li>
+                                    <li class="dropdown">
+                                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">联系我们</a> 
+                                      
+                                    </li>
+                                     <li class="divider visible-xs-block"></li>
+                                    <li class="dropdown">
+                                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">个人中心</a> 
+                                     
+                                    </li>
+                                  </ul>
+                                  
+								<ul class="list-unstyled vis-sm navbar-right">
+                                  	<li><a class="shopcar"></a></li>
+                                    <li><a class="search"></a></li>
+                                    <li><a class="myTown"></a></li>
+                                 </ul>
+                           </div>
+           	</nav>
+           	<!--内容-->
+           	<div class="contanter-son paddingT120 overH">
+           		<div class="container boxH center clearfix bgColorfff ">
+           			<!--左侧导航-->
+           			<div class="centerNav pull-left">
+           				<div class="centerNavB">
+	           				<div class="centerNavT">
+	           					<div class="touxiang">
+	           						<a href="javascript:;" class="touImg">
+	           							<img src="images/hover_logo2.jpg"  />
+	           						</a>
+	           						<a href="javascript:;" class="yongName">
+	           							用户名
+	           						</a>
+	           					</div>
+	           					<div class="VIP">
+	           						<span>VIP：普通会员<b></b></span>
+	           					</div>
+	           					<div class="shenjiA">
+	           						<a href="javascript:;">会员升级</a>
+	           					</div>
+	           				</div>
+	           				<div class="NavList">
+	           					<dl>
+	           						<dt><span class="orderC">订单中心</span></dt>
+	           						<dd>
+	           							<a href="javasxript:;">我的订单</a>
+	           						</dd>
+	           						<dd>
+	           							<a href="javasxript:;">我的退货</a>
+	           						</dd>
+	           						<dd>
+	           							<a href="javasxript:;">优惠劵</a>
+	           						</dd>
+	           					</dl>
+	           					<dl>
+	           						<dt><span class="zhanghaoC">账号管理</span></dt>
+	           						<dd>
+	           							<a href="javasxript:;">基本信息</a>
+	           						</dd>
+	           						<dd>
+	           							<a href="javasxript:;">收货地址</a>
+	           						</dd>
+	           						<dd>
+	           							<a href="javasxript:;">密码修改</a>
+	           						</dd>
+	           					</dl>
+	           					<dl>
+	           						<dd>
+	           						</dd>
+	           						<dd>
+	           						</dd>
+	           					</dl>
+	           				</div>
+           					
+           				</div>
+           			</div>
+           			<!--右侧内容-->
+           			<div class="centerWrap pull-left height100">
+           				<div class="wrapN">
+           					<div class="wrapS">
+           						<div class="clearfix centerMT">
+									<div class="pull-left centerT">
+										<span>收货地址</span>
+										<span>SHOPING ADDRESS</span>
+									</div>
+           						</div>
+           						<div class="addressB">
+           							<div class="address">
+           								<div class="editAddress">
+           									<ul class="list-unstyled newAddress">
+           										<li class="clearfix">
+           											<span class="hidden-xs"><b>*</b>收货人</span>
+           											<input type="text" placeholder="请输入联系人姓名" />
+           										</li>
+           										<li class="clearfix">
+           											<span class="hidden-xs"><b>*</b>省市区</span>
+           											<div class="pull-left xuanzheB2 clearfix marL">
+           												<div class="pull-left">
+           													<select id="seachprov"  name="seachprov" onchange="changeComplexProvince(this.value, sub_array, 'seachcity', 'seachdistrict');"   class="chzn-select" >
+		                                                	</select>
+           												</div>
+           												<div class="pull-left">
+           													<select id="seachcity"  name="homecity" onchange="changeCity(this.value,'seachdistrict','seachdistrict');"   class="chzn-select"  >
+		                                                	</select>
+           												</div>
+           												<div class="pull-left">
+           													<select id="seachdistrict"  name="seachdistrict"  class="chzn-select" >
+		                                                	</select>
+           												</div>
+           											</div>
+           										</li>
+           										<li class="clearfix">
+           											<span class="hidden-xs"><b>*</b>详细地址</span>
+           											<input type="text" placeholder="请输入详细地址" />
+           										</li>
+           										<li class="clearfix">
+           											<span class="hidden-xs"><b>*</b>手机号码</span>
+           											<input type="text" placeholder="请输入手机号码"/>
+           										</li>
+           										<li class="clearfix creatA">
+           											<a href="javascript:;" class="bgColorred2 save">保存新地址</a>
+           											<label class="szmoren">
+           												<input type="checkbox" />
+           												设置为默认地址
+           											</label>
+           											<div class="mustT hidden-xs">*为必填</div>
+           										</li>
+           									</ul>
+           								</div>
+           								<div class="addressAll">
+           									<ul class="list-unstyled addressN">
+           										<li class="borderRed">
+           											<h3>地址1</h3>
+           											<div class="addBox clearfix">
+           												<div class="addL">
+	           												<ul class="list-unstyled">
+	           													<li>
+	           														<span>
+	           															收货人
+	           														</span>
+	           														<p>
+	           															小明
+	           														</p>
+	           													</li>
+	           													<li>
+	           														<span>
+	           															详细地址
+	           														</span>
+	           														<p>
+	           															上海市松江区泗泾镇9999号
+	           														</p>
+	           													</li>
+	           													<li>
+	           														<span>
+	           															手机号码
+	           														</span>
+	           														<p>
+	           															1524624562
+	           														</p>
+	           													</li>
+	           												</ul>
+	           											</div>
+	           											<div class="addR">
+	           												<div class="normalA">
+	           													<a href="javascript:;" class="editAdd hongse">修改</a>
+	           													<a href="javascript:;" class="deleteAdd hongse">删除</a>
+	           												</div>
+	           												<div class="fanteA">
+	           													<a href="javascript:;" class="sheMoRen bgColorred2">常用地址</a>
+	           												</div>
+	           											</div>
+           											</div>
+           										</li>
+           										<li >
+           											<h3>地址1</h3>
+           											<div class="addBox clearfix">
+           												<div class="addL">
+	           												<ul class="list-unstyled">
+	           													<li>
+	           														<span>
+	           															收货人
+	           														</span>
+	           														<p>
+	           															小明
+	           														</p>
+	           													</li>
+	           													<li>
+	           														<span>
+	           															详细地址
+	           														</span>
+	           														<p>
+	           															上海市松江区泗泾镇9999号
+	           														</p>
+	           													</li>
+	           													<li>
+	           														<span>
+	           															手机号码
+	           														</span>
+	           														<p>
+	           															1524624562
+	           														</p>
+	           													</li>
+	           												</ul>
+	           											</div>
+	           											<div class="addR">
+	           												<div class="normalA">
+	           													<a href="javascript:;" class="editAdd hongse">修改</a>
+	           													<a href="javascript:;" class="deleteAdd hongse">删除</a>
+	           												</div>
+	           												<div class="fanteA">
+	           													<a href="javascript:;" class="sheMoRen bgcolorBrack">常用地址</a>
+	           												</div>
+	           											</div>
+           											</div>
+           										</li>
+
+           									</ul>
+           								</div>
+           							</div>
+           						</div>
+           					</div>
+           				</div>
+           			</div>
+           		</div>
+           	</div>
+           	<!--底部-->
+			<div class="contanter-son ">
+           		<div class="container footer clearfix">
+       				<ul class="list-unstyled  clearfix pull-left">
+                    	<li>
+                    		<a href="javascript:;">我的账户</a>
+                         </li>
+                         <li>
+                    		<a href="javascript:;">我的订单</a>
+                         </li>
+                         <li>
+                    		<a href="javascript:;">配送信息</a>
+                         </li>
+                         <li>
+                    		<a href="javascript:;">退换货信息</a>
+                         </li>
+                         <li>
+                    		<a href="javascript:;">退款信息</a>
+                         </li>
+                         <li>
+                    		<a href="javascript:;">支付信息</a>
+                         </li>
+                         <li>
+                    		<a href="javascript:;">关于发票</a>
+                         </li>
+                         <li>
+                    		<a href="javascript:;">关于我们</a>
+                         </li>
+                    </ul>
+                    <div class="weixinErwei pull-left clearfix">
+						<span>致电我们：021-7654765</span>
+						<a href="javascript:;" class="hidden-xs">
+						</a>
+						<div class="erweima hidden-xs">
+								<img src="images/erweima.png" />
+							</div>
+					</div>
+           		</div>
+           	</div>
+            <div class="contanter-son bgColorred text-center colorfff" >
+            	<div class="container footer-record">
+               	 	<p>Copyright 2008-2014 HAOWEISI all right reserved.沪ICP备05039311号-1&nbsp; <span>好威思版权所有</span></p>                
+                </div>
+                
+            </div>
+<!--受che-->
+<script src="js/ie-emulation-modes-warning.js"></script>
+<script src="js/ie10-viewport-bug-workaround.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/public.js"></script>
+<script>
+$(document).ready(function(){
+	var a = window.navigator.userAgent; 
+	 if(a.indexOf("Windows NT")>-1 || a.indexOf("Macintosh")>-1){
+		 $(".dropdown").mouseover(function(){
+			$(".dropdown").removeClass("open").attr('aria-expanded', 'false');
+			$(this).addClass("open").attr('aria-expanded', 'true');
+		});	
+		 }
+	 $(".sousuoma").click(function(){
+	 	$(".sousuoM").toggle();
+	 });
+	 $(".select_down h3").click(function(){
+	 	$(".select_down h3").css("background","#ddd");
+	 });
+	  $(".select_down a").click(function(){
+	 	$(".select_down h3").css("background","#C9C9C9");
+	 });
+	 $("body").click(function(){
+	 	$(".select_down h3").css("background","#fff");
+	 })
+	 $(".pagination>li>a").click(function(){
+	 	$(".pagination>li>a").removeClass("on");
+	 	$(this).addClass("on");
+	 })
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,291 @@
+img{vertical-align: bottom;}
+
+.slideFocus{width: 400px;height: 498px;float: left;background: #ebebeb;margin-top: 20px;}  
+.detailsCon{width: 580px;float: right;margin-top: 20px;border: solid 1px #cbcbcb;font-size: 12px;}
+.detailsCon h1{font-size: 16px;color: #333333;border-bottom: dashed 1px #cbcbcb;padding: 5px 10px;}
+.detailsCon p{color: #666;border-bottom:  dashed 1px #cbcbcb;padding: 12px 10px;line-height: 20px;}
+.detailsCon .price{font-size: 14px;color: #d33710;border-bottom:  dashed 1px #cbcbcb;padding: 14px 10px;line-height: 20px;background: #f3f3f3;}
+.detailsCon .price del{color: #666;padding-left: 24px;}
+.detailsCon .sltImg,.detailsCon .sltText,.detailsCon .sltNum{border-bottom:  dashed 1px #cbcbcb;padding: 8px 10px;position: relative;padding-left: 60px;}
+.detailsCon .sltImg span,.detailsCon .sltText span,.detailsCon .sltNum span{position: absolute;left: 10px;color: #666;top: 10px;}
+.detailsCon .sltImg a,.detailsCon .sltText a{margin-right: 8px;position: relative;}
+.detailsCon .sltText a{color: #666;border: solid 1px #cbcbcb;padding: 3px 8px;}
+.detailsCon .sltText a.active{border: solid 1px #d33710;}
+.detailsCon .sltImg a{width: 74px;height: 74px;display: block;float: left;}
+.detailsCon .sltImg a img{width: 74px;height: 74px;}
+.detailsCon .sltImg a i{width: 11px;height: 11px;background: url(../img/productdetail/checked.png);position: absolute;z-index: 11;right: 0px;bottom: 0px;display: none;}
+.detailsCon .sltImg a.active i{display: block;}
+.detailsCon .sltNum span{top: 14px;}
+.detailsCon .sltNum strong{font-weight: normal;color: #666;padding-left: 20px;}
+.detailsCon .sltNum strong i{font-style: normal;}
+.detailsCon .sltNum a{padding: 3px 3px 3px 7px; font-size: 14px; border: solid 1px #cbcbcb;color: #666;margin-right: 10px; text-align: center;text-indent: 0;}
+.detailsCon .sltNum input[type="text"]{text-align: center;padding: 0;width: 60px;height: 25px;position: relative;top: -1px; border: solid 1px #cbcbcb;color: #666;margin-right:6px;}
+.detailsCon .btnBg{height: 96px;font-size: 12px;color: #999;width: 100%;position: relative;}
+.detailsCon .btnBg .favorite,.detailsCon .btnBg .collect,.detailsCon .btnBg .share{float: left;padding-left: 40px;position: relative;line-height: 23px;padding-top: 40px;cursor: pointer;}
+.detailsCon .btnBg .icon{width: 42px;height: 23px;background-image: url(../img/productdetail/icon.png);display: block;position: absolute;top: 34px;left: 4px;}
+.detailsCon .btnBg .icon:hover{background-image: url(../img/productdetail/iconHover.png);}
+.detailsCon .btnBg .icon1{background-position: 0px 0;}
+.detailsCon .btnBg .icon2{background-position: -36px 0;}
+.detailsCon .btnBg .icon3{background-position: -76px 0;}
+
+.detailsCon .btnBg a{width: 113px;height: 41px;position: absolute;display: block;top: 30px;line-height: 40px;color: #fff;text-align: center;font-size: 14px;}
+.detailsCon .btnBg a.buy{background: url(../img/productdetail/buy.png);right: 150px;}
+.detailsCon .btnBg a.addshopcar{background: url(../img/productdetail/addshopcar.png);right: 20px;}
+
+/*tab选项卡*/
+.tab{margin-top: 20px;}
+.tab ul{background: #ebebeb;border-bottom: solid 1px #cbcbcb;height: 50px;line-height: 50px;text-align: center;font-size: 16px;}
+.tab ul li{width: 25%;float: left;}
+.tab ul li a{color: #666666;display: block;position: relative;height: 50px;width: 100%;}
+.tab ul li a div{position: absolute; width: 100%;height: 8px;background: #1c2a3c;left: 0;bottom: 0px;display: none;}
+.tab ul li.active a{color: #1c2a3c;border-left: solid 1px #a5a5a5;border-right: solid 1px #a5a5a5;border-top: solid 1px #cbcbcb; background: #fff;line-height: 48px;}
+.tab ul li.active div{display: block;}
+.tab ul li a span{color: #db5234;}
+.tab ul li.active a span{color: #1c2a3c;}
+
+/*tab实体内容*/
+.tabCon{}
+.tabCon .tabName{display: none;}
+.tabCon1 ul{}
+.tabCon1 li{margin-bottom: 10px;}
+.tabCon1 li img{width: 100%;}
+.tabCon .title{margin-top: 20px;width: 990px;height: 34px;}
+.tabCon .spsp{background-image: url(../img/productdetail/spsp.png);}
+.tabCon .bzzs{background-image: url(../img/productdetail/bzzs.png);}
+.tabCon .cpcs{background-image: url(../img/productdetail/cpcs.png);}
+.tabCon .gmsm{background-image: url(../img/productdetail/gmsm.png);}
+.tabCon .spxj{background-image: url(../img/productdetail/spxj.png);}
+.tabCon .fwzl{background-image: url(../img/productdetail/fwzl.png);}
+
+/*tab评价*/
+.tabPj{border: solid 1px #cbcbcb;}
+.tabPj .PjBg{width: 100%;height: 100px;position: relative;color: #666;font-size: 14px;}
+.tabPj .PjBg .pjTtitle{position: absolute;width: 80px;top: 30px;left: 20px;}
+.tabPj .PjBg .percent{position: absolute;width: 100px;text-align: center;left: 120px;top: 20px;color: #999;font-size: 12px;}
+.tabPj .PjBg .percent span{font-size: 36px;color: #da5032;font-weight: bold;}
+.tabPj .PjBg .comment{position: absolute;right: 20px;top: 20px;font-size: 12px;color: #666;width: 200px;}
+.tabPj .PjBg .comment .good,.tabPj .PjBg .comment .mid,.tabPj .PjBg .comment .bad{position: relative;height: 20px;line-height: 20px;}
+.tabPj .PjBg .comment span.perBg{position: absolute;width: 110px;left:80px;top: 4px;}
+.tabPj .PjBg .comment span.perB,.tabPj .PjBg .comment span.perO{position: absolute;left: 0;top: 0;height: 12px;background: #e1e1e1;width: 100%;}
+.tabPj .PjBg .comment span.perO{z-index: 99;background: #d44426;}
+.pjTab{border-bottom: solid 1px #e1e1e1;}
+.pjTab a{font-size: 12px;color: #666;float: left;position: relative;width: 115px;text-align: center;padding: 4px 0;}
+.pjTab a div{display: none;height: 3px;background: #da5032;position: absolute;bottom: -2px;left: 0;width: 100%;}
+.pjTab a.active{color: #da5032;}
+.pjTab a.active div{display: block;}
+
+.pjTabUl ul{margin-top: 20px;}
+.pjTabUl ul li{color: #999;font-size: 12px;position: relative;}
+.pjTabUl li img{width: 50px;height: 50px;position: absolute;left: 10px;top: 10px;}
+.pjTabUl li .name{font-size: 12px;text-align: center;left: 0px;width: 80px;position: absolute;top: 70px;}
+.pjTabUl li .commentBg{padding-left: 80px;padding-right: 20px;}
+.pjTabUl li .commentBd{background: #f5f5f5;padding: 5px;border: solid 1px #e1e1e1;border-radius: 5px;position: relative;}
+.pjTabUl li .commentBd .arrow{width: 11px;height: 12px;background: url(../img/productdetail/pjArrow.jpg);position: absolute;left: -10px;bottom: 20px;}
+.pjTabUl li .commentBd .time{text-align: right;border-bottom: solid 1px #e1e1e1;padding: 5px 0;}
+.pjTabUl li .commentBd p{color: #666;padding: 12px;line-height: 20px;}
+.pjTabUl li .commentBd .proInfo{padding: 6px;}
+.pjTabUl li .commentBd span{padding-left: 40px;}
+
+/*晒单瀑布流*/
+.tabCon2{background: #f2f0f0;padding-bottom: 40px;display: none;}
+.tabCon2 ul{width: 25%;float: left;padding-top: 25px;}
+.tabCon2 ul li{padding: 5px;}
+.tabCon2 ul li a{display: block;background: #fff;padding: 5px;}
+.tabCon2 ul li img{width: 100%;}
+.tabCon2 ul li p{color: #666;font-size: 14px;padding: 15px 0px;}
+.tabCon2 .iconBg{position: relative;width: 100%;background: #fff;height: 36px;border-bottom: solid 1px #dddddd;}
+.tabCon2 .favorite,.tabCon2 .collect,.tabCon2 .share{float: left; text-indent: 6px; position: relative;line-height: 23px; padding-left: 22px; padding-right: 8px; padding-top: 10px;cursor: pointer;font-size: 12px;color: #666;}
+.tabCon2 .icon{width: 42px;height: 23px;background-image: url(../img/productdetail/icon.png);display: block;position: absolute;top: 4px;left: -10px;}
+.tabCon2 .icon:hover{background-image: url(../img/productdetail/iconHover.png);}
+.tabCon2 .icon1{background-position: 0px 0;}
+.tabCon2 .icon2{background-position: -36px 0;}
+.tabCon2 .icon3{background-position: -76px 0;}
+.tabCon2 .people {padding-left: 45px;color: #666;font-size: 12px;height: 42px;line-height: 42px;position: relative;}
+.tabCon2 .people img{width: 30px;height: 30px;border-radius: 15px;position: absolute;left: 6px;top: 7px;}
+
+/*商品参数*/
+.tabCon .tabCs{border: solid 1px #cbcbcb;border-top: 0;}
+.tabCon .tabCs ol{padding: 30px 40px;}
+.tabCon .tabCs ol li{width: 33%;float: left;font-size: 12px;color: #666;line-height: 20px;}
+.tabCon .tabCs ol li p{padding-left: 20px;}
+
+/*浮窗*/
+.floatWindow{position: absolute;width: 96px;border: solid 1px #cbcbcb;left: -120px;top: 100px;}
+.floatWindow a{display: block;font-size: 14px;color: #666;padding: 6px 0px 6px 24px;position: relative;}
+.floatWindow a div.ploygon{width: 9px;height: 10px;background: url(../img/productdetail/ploygon.png);position: absolute;display: none;left: 8px;top: 11px;}
+.floatWindow a.active,.floatWindow a:hover{color: #dd5536;}
+.floatWindow a.active div,.floatWindow a:hover div{display: block;}
+
+/*相关产品*/
+.related{width: 990px;height: 350px;margin-bottom: 40px;margin-top: 20px;}
+.related h2{height: 24px;font-size: 14px;line-height: 24px;background: #fff;}
+.related ul{margin-top: 0px;padding: 20px 4px 4px 4px;border:solid 1px #cbcbcb;}
+.related li{float: left;width: 235px;margin-right: 5px;margin-left: 5px;text-align: center;}
+.related li img{width: 235px;height: 235px;}
+.related li p{text-align: center;background: none;border-bottom: 0;color: #666;}
+.related li h2{color: #b12704;font-size: 16px;padding-top: 2px;}
+
+/*焦点图组件样式-详情页*/
+/** Stage container **/
+.connected-carousels .stage {
+    width: 400px;
+    margin: 0px auto;
+    position: relative;
+}
+
+.connected-carousels .photo-credits {
+    position: absolute;
+    right: 15px;
+    bottom: 0;
+    font-size: 13px;
+    color: #fff;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.85);
+    opacity: .66;
+}
+
+.connected-carousels .photo-credits a {
+    color: #fff;
+}
+
+/** Navigation container **/
+
+.connected-carousels .navigation {
+    width:320px;
+    margin: 20px auto;
+    position: relative;
+}
+
+/** Shared carousel styles **/
+
+.connected-carousels .carousel {
+    overflow: hidden;
+    position: relative;
+}
+
+.connected-carousels .carousel ul {
+    width: 20000em;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.connected-carousels .carousel li {
+    float: left;
+}
+
+/** Stage carousel specific styles **/
+
+.connected-carousels .carousel-stage {
+    height: 400px;
+}
+
+/** Navigation carousel specific styles **/
+
+.connected-carousels .carousel-navigation {
+    height: 60px;
+    width: 320px;
+}
+
+.connected-carousels .carousel-navigation li {
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.connected-carousels .carousel-navigation li img {
+    display: block;
+    padding: 4px;
+    background: #fff;
+    border: 1px solid #fff;
+}
+
+.connected-carousels .carousel-navigation li.active img {
+    border-color: #ccc;
+}
+
+/** Stage carousel controls **/
+
+.connected-carousels .prev-stage,
+.connected-carousels .next-stage {
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 305px;
+    height: 410px;
+    color: #fff;
+}
+
+.connected-carousels .prev-stage {
+    left: 0;
+}
+
+.connected-carousels .next-stage {
+    right: 0;
+}
+
+.connected-carousels .prev-stage.inactive,
+.connected-carousels .next-stage.inactive {
+    display: none;
+}
+
+.connected-carousels .prev-stage span,
+.connected-carousels .next-stage span {
+    display: none;
+    position: absolute;
+    top: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background: #4E443C;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 0 1px #000;
+    font: 24px/27px Arial, sans-serif;
+    -webkit-border-radius: 30px;
+       -moz-border-radius: 30px;
+            border-radius: 30px;
+    -webkit-box-shadow: 0 0 2px #999;
+       -moz-box-shadow: 0 0 2px #999;
+            box-shadow: 0 0 2px #999;
+}
+
+.connected-carousels .prev-stage span {
+    left: 20px;
+}
+
+.connected-carousels .next-stage span {
+    right: 20px;
+}
+
+.connected-carousels .prev-stage:hover span,
+.connected-carousels .next-stage:hover span {
+    display: block;
+}
+
+/** Navigation carousel controls **/
+
+.connected-carousels .prev-navigation,
+.connected-carousels .next-navigation {
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    color: #666666;
+    text-decoration: none;
+    text-shadow: 0 0 1px #000;
+    font: 16px/29px Arial, sans-serif;
+    cursor: pointer;
+}
+
+.connected-carousels .prev-navigation {
+    left: -25px;
+    top: 22px;
+    text-indent: 6px;
+}
+
+.connected-carousels .next-navigation {
+    right: -25px;
+    top: 22px;
+    text-indent: 16px;
+}
+
